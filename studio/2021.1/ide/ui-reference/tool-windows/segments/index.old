@@ -1,0 +1,110 @@
+# Segments
+
+After a segment is defined in the **config.cr** file and an analysis operation is performed, this window shows the segment that is identified by the triggered rule for the file specified in the context bar.
+
+<mark>Dobbiamo scrivere di "segments" (plurale) perché ne possono uscire n, ciascuno con le sue istanze e le sue regole. Non starei a dire che i segmenti devono essere definiti (anche se è vero) e dove, perché il lettore dovrebbe già sapere cosa sono (è un concetto), Riformulerei quindi così:</mark>
+
+<mark>After an analysis operation, this window shows the segments that were identified for the file specified in the context bar.</mark>
+
+![01.png](01.png)
+
+It is divided in three panels:
+
+- Segment/Rules
+- Hits/Segment text <mark>"T" di "text" maiuscola</mark>
+- Rule preview
+
+
+## Segment/Rules
+
+This panel shows the segments and their rules. <mark>Direi "..the segments, their instances and the rules that identified them", perché il primo livello di dettaglio, anche se è etichettato come "Rules", rappresenta le istanze del segmento, cioè le porzioni di testo individuate, mentre il secondo livello di dettaglio rappresenta le regole che hanno prodotto le varie istanze del segmento.</mark>
+
+There's a row for each segment.
+The expand/collapse toggle switch on the left displays or hides the triggered rules. <mark>Per quanto sopra: "...or hides the segment instances"</mark>
+There are one or more row <mark>Singolare "or" plurale vuole poi il plurale, quindi "rows"</mark> for each rules. <mark>Eh, qui invece "each" vuole il singolare, quindi "rule"</mark> <mark>MA, alla fine,  quello che si deve dire è che "nella vista espansa ci possono essere più righe, una per ogni istanza del segmento"</mark>
+The expand/collapse toggle switch on the left displays or hides the triggered rules syntax. <mark>Direi: "...or hides the rule code"</mark>
+
+The columns are:
+
+Column | Description
+--- | ---
+**Segment/Rules** | Segment name and rules <mark>Direi "Segment name, segment instance or rules"
+**Score** | (Only for Rule <mark>Direi "Only for segment instances", perché di questo si tratta, anche se c'è scritto Rules</mark>) The segment overall score or the contribution of the rule to the score <mark>Direi invece: "The instance score"</mark>
+**Begin** | (Only for Rule <mark>Come sopra</mark>) Segment matching starting position <mark>Direi "Instance" o "Segment instance" invece di "Segment" e toglierei "matching"</mark>
+**End** | (Only for Rule <mark>Come sopra</mark>) Segment matching ending position <mark>Come sopra</mark>
+**Hits** | (Only for Rule <mark>"rules", minuscolo e plurale</mark>) Matching count <mark>Come in Categorization: "The number of times the rule was matched" </mark>
+
+
+The toolbar contains:
+
+Icon | Name | Description
+--- | --- | ---
+![01_a.jpg](1_a.jpg) | **Expand All** | Expand all the records, showing fields <mark>Non è Extraction, quindi direi: "Expand all the segments' rows, showing the segment instances and the rules"</mark>
+![01_b.jpg](1_b.jpg) | **Collapse All** | Collapse all the records, hiding fields <mark>Direi "Collapse all rows, hiding segment instances and rules"</mark>
+ | **Search:** | Search criteria
+![01_D.jpg](1_d.jpg) | **Reset** | Reset the search criteria
+![01_E.jpg](1_e.jpg) | **Filter** | Display the results matching the search criteria in the **Find Results** tool windows
+
+Available mouse commands are:
+
+Command | Description
+--- | ---
+Click on the column headers | Change sort order <mark>Mi pare inefficace, ho scritto a Tonyk,</mark> 
+Click on a segment <mark>Aggiungerei "row" per coerenza con le righe sotto oppure toglierei "row" ovunque, a piacere.</mark> | Expand the row with rule details and highlight all hits in the test file text inside the editor <mark>No, il singolo click su un segmento non provoca l'espansione della riga, almeno da me non lo fa, piuttosto evidenzia tutte le istanze del segmento nel testo del file di test e, all'interno di tali evidenziazioni, gli "hit" delle regole.</mark>
+Click on rule row <mark>Qui, per quanto sopra, direi "segment instance" invece di "rule".</mark> | Highlight the segment in the test file text inside the editor
+Click on a specific single rule row <mark>Toglierei "specific single".</mark> | <mark>"H" maiusocola ---></mark> highlight all hits in the test file text inside the editor and show other details in the two remaining panels <mark>Direi "other" piuttosto che "two remaining".</mark>
+Double click on a specific single rule row <mark>Come sopra.</mark> | Like single click and <mark>Meglio "plus" di "and"?</mark> a toggle action if the command is repeated: highlight the triggered rule in the source file inside the editor or highlight rule's hits in the test file text inside the editor
+
+At the panel bottom side there is a status bar info that shows the identified segment count. <mark>Direi: "shows the segments count".</mark>
+
+## Hits/Segment text panel
+
+<mark>Nel titoletto "T" di "text" maiuscola.</mark>
+
+This panel is composed of two tabs:
+
+<mark>Per i nomi dei tab, essendo etichette a video, usiamo il grassetto invece dell'italico, in Extraction ho cambiato io.</mark>
+
+- _Hits_
+- _Segment texts_
+
+
+### Hits
+
+<mark>Con l'eccezione della descrizione di Score, che qui manca, metterei qui, tale e quale, tutta la descrizione del pannello Hits/Blocks di Categorization, ma ti faccio comunque un'osservazione sull'inglese sotto, a futura memoria.</mark>
+
+This tab contains a table listing all the Hits/Blocks for the selected rule instance.
+
+There are one or more row for each hits. <mark>"There are (plurale) one or more rowS (plurale) for each hit (niente "s", singolare).</mark>
+
+The expand/collapse toggle switch on the left displays or hides the triggered rules syntax.
+
+
+The toolbar contains:
+
+Icon | Name | Description
+--- | --- | ---
+![01_a.jpg](1_a.jpg) | **Expand All** | Expand all the records, showing fields
+![01_b.jpg](1_b.jpg) | **Collapse All** | Collapse all the records, hiding fields
+
+Available mouse commands are:
+
+Command | Description
+--- | ---
+Click on a row | If the editor focus is on the test file, highlight the hit
+Double click on a row | Toggle action if the command is repeated: highlight the triggered rule in the source file inside the editor or highlight the rule's hits in the test file text inside the editor
+
+At the panel bottom side there is a status bar info that shows the hits count.
+
+
+### Segment text
+
+<mark>Ancora: la "T" di "text" è maiuscola.</mark>
+
+This tab show <mark>showS</mark> the segment text that was identified by the triggered rule. 
+
+At the panel upper side there is a status bar info that shows the rule count. <mark>?</mark>
+
+## Rule preview panel 
+
+This panel allows the user to see the rule source code without the need to change the editor focus. <mark>Specificherei di quale rule si tratta.</mark>
