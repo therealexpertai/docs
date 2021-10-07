@@ -1,0 +1,857 @@
+{
+	"info": {
+		"_postman_id": "e6485682-c1d7-4d60-aa8d-f8fcf105322d",
+		"name": "expert.ai Natural Language API",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "Document analysis",
+			"item": [
+				{
+					"name": "full",
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "",
+								"value": "",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"document\": {\r\n        \"text\": \"Michael Jordan was one of the best basketball players of all time. Scoring was Jordan's stand-out skill, but he still holds a defensive NBA record, with eight steals in a half.\"\r\n    }\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "https://{{api-server}}/v2/analyze/standard/en",
+							"protocol": "https",
+							"host": [
+								"{{api-server}}"
+							],
+							"path": [
+								"v2",
+								"analyze",
+								"standard",
+								"en"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "disambiguation",
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "",
+								"type": "text",
+								"value": ""
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"document\": {\r\n        \"text\": \"Michael Jordan was one of the best basketball players of all time. Scoring was Jordan's stand-out skill, but he still holds a defensive NBA record, with eight steals in a half.\"\r\n    }\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "https://{{api-server}}/v2/analyze/standard/en/disambiguation",
+							"protocol": "https",
+							"host": [
+								"{{api-server}}"
+							],
+							"path": [
+								"v2",
+								"analyze",
+								"standard",
+								"en",
+								"disambiguation"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "entities",
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "",
+								"type": "text",
+								"value": ""
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"document\": {\r\n        \"text\": \"Michael Jordan was one of the best basketball players of all time. Scoring was Jordan's stand-out skill, but he still holds a defensive NBA record, with eight steals in a half.\"\r\n    }\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "https://{{api-server}}/v2/analyze/standard/en/entities",
+							"protocol": "https",
+							"host": [
+								"{{api-server}}"
+							],
+							"path": [
+								"v2",
+								"analyze",
+								"standard",
+								"en",
+								"entities"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "relevants",
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "",
+								"type": "text",
+								"value": ""
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n\t\"document\": {\r\n\t\t\"text\": \"At first there was considerable trouble about getting the machine up in the air and the engine well up to speed. They did this by running along a single-rail track perhaps 200 feet long. It was also, in the early experiments, found advisable to run against the wind, because they could then have a greater time to practice in the air and not get so far away from the building where it was stored. Since they can come around to the starting-point, however, they can start with the wind even behind them; and with a strong wind behind it is an easy matter to make even more than a mile a minute. The operator takes his place lying flat on his face. This position offers less resistance to the wind. The engine is started and got up to speed. The machine is held until ready to start by a sort of trap to be sprung when all is ready; then with a tremendous flapping and snapping of the four-cylinder engine, the huge machine springs aloft. When it first turned that circle, and came near the starting-point. I was right in front it; and I said then, and I believe still, it was one of the grandest sights, if not the grandest sight, of my life. Imagine a locomotive that has left its track, and is climbing up in the air right toward you—a locomotive without any wheels, we will say, but with white wings instead, we will further say-a locomotive made of aluminum. Well, now, imagine this white locomotive, with wings that spread 20 feet each way, coming right toward you with a tremendous flap of its propellers, and you will have something like what I saw. The younger brother bade me move to one side for fear it might come down suddenly; but I tell you, friends, the sensation that one feels in such a crisis is something hard to describe. The attendant at one time, when the rope came off that started it, said he was shaking from head to foot as if he had a fit of ague. His shaking was uncalled for, however, for the intrepid manager succeeded in righting up his craft, and she made one of her very best flights. I may add, however, that the apparatus is secured by patents, both in this and in foreign countries; and as nobody else has as yet succeeded in doing any thing like what they have done I hope no millionaire or syndicate will try to rob them of the invention or laurels they have so fairly and honestly earned.  When Columbus discovered America he did not know what the outcome would be, and no one at that time knew; and I doubt if the wildest enthusiast caught a glimpse of what really did come from his discovery. In a like manner these two brothers have probably not even a faint glimpse of what their discovery is going to bring to the children of men. No one living can give a guess of what is coming along this line, much better than any one living could conjecture the final outcome of Columbus' experiment when lie pushed off through the trackless waters. Possibly we may be able to fly over the north pole, even if we should not succeed in tacking the \\\"stars and stripes\\\" to its uppermost end.\"\r\n\t}\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "https://{{api-server}}/v2/analyze/standard/en/relevants",
+							"protocol": "https",
+							"host": [
+								"{{api-server}}"
+							],
+							"path": [
+								"v2",
+								"analyze",
+								"standard",
+								"en",
+								"relevants"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "relations",
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "",
+								"type": "text",
+								"value": ""
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n\t\"document\": {\r\n\t\t\"text\": \"Michael Jordan was one of the best basketball players of all time. Scoring was Jordan's stand-out skill, but he still holds a defensive NBA record, with eight steals in a half.\"\r\n\t}\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "https://{{api-server}}/v2/analyze/standard/en/relations",
+							"protocol": "https",
+							"host": [
+								"{{api-server}}"
+							],
+							"path": [
+								"v2",
+								"analyze",
+								"standard",
+								"en",
+								"relations"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "sentiment",
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "",
+								"type": "text",
+								"value": ""
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n\t\"document\": {\r\n\t\t\"text\": \"Michael Jordan was one of the best basketball players of all time. Scoring was Jordan's stand-out skill, but he still holds a defensive NBA record, with eight steals in a half.\"\r\n\t}\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "https://{{api-server}}/v2/analyze/standard/en/sentiment",
+							"protocol": "https",
+							"host": [
+								"{{api-server}}"
+							],
+							"path": [
+								"v2",
+								"analyze",
+								"standard",
+								"en",
+								"sentiment"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "contexts",
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "",
+								"type": "text",
+								"value": ""
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "https://{{api-server}}/v2/contexts",
+							"protocol": "https",
+							"host": [
+								"{{api-server}}"
+							],
+							"path": [
+								"v2",
+								"contexts"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "Document classification",
+			"item": [
+				{
+					"name": "iptc",
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "",
+								"type": "text",
+								"value": ""
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"document\": {\r\n        \"text\": \"Michael Jordan was one of the best basketball players of all time. Scoring was Jordan's stand-out skill, but he still holds a defensive NBA record, with eight steals in a half.\"\r\n    }\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "https://{{api-server}}/v2/categorize/iptc/en",
+							"protocol": "https",
+							"host": [
+								"{{api-server}}"
+							],
+							"path": [
+								"v2",
+								"categorize",
+								"iptc",
+								"en"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "geotax",
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "",
+								"type": "text",
+								"value": ""
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"document\": {\r\n        \"text\": \"Last year I moved from San Francisco to New York.\"\r\n    }\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "https://{{api-server}}/v2/categorize/geotax/en",
+							"protocol": "https",
+							"host": [
+								"{{api-server}}"
+							],
+							"path": [
+								"v2",
+								"categorize",
+								"geotax",
+								"en"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "geotax with GeoJSON output",
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "",
+								"type": "text",
+								"value": ""
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"document\": {\r\n        \"text\": \"Last year I moved from San Francisco to New York.\"\r\n    }\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "https://{{api-server}}/v2/categorize/geotax/en?features=extradata",
+							"protocol": "https",
+							"host": [
+								"{{api-server}}"
+							],
+							"path": [
+								"v2",
+								"categorize",
+								"geotax",
+								"en"
+							],
+							"query": [
+								{
+									"key": "features",
+									"value": "extradata"
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "emotional-traits",
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "",
+								"type": "text",
+								"value": ""
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"document\": {\r\n        \"text\": \"I experience a mix of conflicting emotions: the approach of the fateful date scares me, but at the same time I can't wait for it to arrive. I have moments of elation and others of pure panic, but I would say that I am mostly happy.\"\r\n    }\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "https://{{api-server}}/v2/categorize/emotional-traits/en",
+							"protocol": "https",
+							"host": [
+								"{{api-server}}"
+							],
+							"path": [
+								"v2",
+								"categorize",
+								"emotional-traits",
+								"en"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "emotional-traits with main groups",
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "",
+								"type": "text",
+								"value": ""
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"document\": {\r\n        \"text\": \"I experience a mix of conflicting emotions: the approach of the fateful date scares me, but at the same time I can't wait for it to arrive. I have moments of elation and others of pure panic, but I would say that I am mostly happy.\"\r\n    }\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "https://{{api-server}}/v2/categorize/emotional-traits/en?features=extradata",
+							"protocol": "https",
+							"host": [
+								"{{api-server}}"
+							],
+							"path": [
+								"v2",
+								"categorize",
+								"emotional-traits",
+								"en"
+							],
+							"query": [
+								{
+									"key": "features",
+									"value": "extradata"
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "behavioral-traits",
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "",
+								"type": "text",
+								"value": ""
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"document\": {\r\n        \"text\": \"Michael Jordan was one of the best basketball players of all time. Scoring was Jordan's stand-out skill, but he still holds a defensive NBA record, with eight steals in a half.\"\r\n    }\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "https://{{api-server}}/v2/categorize/behavioral-traits/en",
+							"protocol": "https",
+							"host": [
+								"{{api-server}}"
+							],
+							"path": [
+								"v2",
+								"categorize",
+								"behavioral-traits",
+								"en"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "taxonomies",
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "",
+								"type": "text",
+								"value": ""
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "https://{{api-server}}/v2/taxonomies",
+							"protocol": "https",
+							"host": [
+								"{{api-server}}"
+							],
+							"path": [
+								"v2",
+								"taxonomies"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "iptc taxonomy",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "https://{{api-server}}/v2/taxonomies/iptc/en",
+							"protocol": "https",
+							"host": [
+								"{{api-server}}"
+							],
+							"path": [
+								"v2",
+								"taxonomies",
+								"iptc",
+								"en"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "geotax taxonomy",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "https://{{api-server}}/v2/taxonomies/geotax/en",
+							"protocol": "https",
+							"host": [
+								"{{api-server}}"
+							],
+							"path": [
+								"v2",
+								"taxonomies",
+								"geotax",
+								"en"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "emotional-traits taxonomy",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "https://{{api-server}}/v2/taxonomies/emotional-traits/en",
+							"protocol": "https",
+							"host": [
+								"{{api-server}}"
+							],
+							"path": [
+								"v2",
+								"taxonomies",
+								"emotional-traits",
+								"en"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "behavioral traits taxonomy",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "https://{{api-server}}/v2/taxonomies/behavioral-traits/en",
+							"protocol": "https",
+							"host": [
+								"{{api-server}}"
+							],
+							"path": [
+								"v2",
+								"taxonomies",
+								"behavioral-traits",
+								"en"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "Information detection",
+			"item": [
+				{
+					"name": "pii",
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "",
+								"type": "text",
+								"value": ""
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"document\": {\r\n        \"text\": \"Michael Jordan was one of the best basketball players of all time. Scoring was Jordan's stand-out skill, but he still holds a defensive NBA record, with eight steals in a half.\"\r\n    }\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "https://{{api-server}}/v2/detect/pii/en",
+							"protocol": "https",
+							"host": [
+								"{{api-server}}"
+							],
+							"path": [
+								"v2",
+								"detect",
+								"pii",
+								"en"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "writeprint",
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "",
+								"type": "text",
+								"value": ""
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"document\": {\r\n        \"text\": \"Michael Jordan was one of the best basketball players of all time. Scoring was Jordan's stand-out skill, but he still holds a defensive NBA record, with eight steals in a half.\"\r\n    }\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "https://{{api-server}}/v2/detect/writeprint/en",
+							"protocol": "https",
+							"host": [
+								"{{api-server}}"
+							],
+							"path": [
+								"v2",
+								"detect",
+								"writeprint",
+								"en"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "temporal-information",
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "",
+								"type": "text",
+								"value": ""
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"document\": {\r\n        \"text\": \"I first traveled to Australia in 2004. I returned seven years later. After that, I lived in New Zealand from February 2013 to November 2014.\"\r\n    }\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "https://{{api-server}}/v2/detect/temporal-information/en",
+							"protocol": "https",
+							"host": [
+								"{{api-server}}"
+							],
+							"path": [
+								"v2",
+								"detect",
+								"temporal-information",
+								"en"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "detectors",
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "",
+								"type": "text",
+								"value": ""
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "https://{{api-server}}/v2/detectors",
+							"protocol": "https",
+							"host": [
+								"{{api-server}}"
+							],
+							"path": [
+								"v2",
+								"detectors"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "token",
+			"protocolProfileBehavior": {
+				"disabledSystemHeaders": {}
+			},
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "",
+						"value": "",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"username\": \"yourusername\",\r\n    \"password\": \"yourpassword\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://{{auth-server}}/oauth2/token",
+					"protocol": "https",
+					"host": [
+						"{{auth-server}}"
+					],
+					"path": [
+						"oauth2",
+						"token"
+					]
+				}
+			},
+			"response": []
+		}
+	],
+	"auth": {
+		"type": "bearer",
+		"bearer": [
+			{
+				"key": "token",
+				"value": "{{token}}",
+				"type": "string"
+			}
+		]
+	},
+	"event": [
+		{
+			"listen": "prerequest",
+			"script": {
+				"type": "text/javascript",
+				"exec": [
+					""
+				]
+			}
+		},
+		{
+			"listen": "test",
+			"script": {
+				"type": "text/javascript",
+				"exec": [
+					""
+				]
+			}
+		}
+	],
+	"variable": [
+		{
+			"key": "token",
+			"value": "initial"
+		},
+		{
+			"key": "api-server",
+			"value": "nlapi.expert.ai"
+		},
+		{
+			"key": "auth-server",
+			"value": "developer.expert.ai"
+		}
+	]
+}

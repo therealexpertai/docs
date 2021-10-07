@@ -1,0 +1,2736 @@
+
+<!doctype html>
+<html lang="en" class="no-js">
+  <head>
+      <!-- Google Tag Manager -->
+      <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start': new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0], j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src='https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);})(window,document,'script','dataLayer','GTM-T3Z28HZ');</script>
+      <!-- End Google Tag Manager -->
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+      
+      
+      
+        <link rel="canonical" href="https://docs.expert.ai/nlapi/v2/reference/output/self-documentation/">
+      
+      <link rel="icon" href="../../../favicon-1.png">
+      <meta name="generator" content="mkdocs-1.2.2, mkdocs-material-7.2.4">
+    
+    
+      
+        <title>Self-documentation resources - expert.ai Natural Language API</title>
+      
+    
+    
+      <link rel="stylesheet" href="../../../assets/stylesheets/main.f7f47774.min.css">
+      
+        
+        <link rel="stylesheet" href="../../../assets/stylesheets/palette.3f5d1f46.min.css">
+        
+      
+    
+    
+    
+      
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,400,400i,700%7CRoboto+Mono&display=fallback">
+        <style>:root{--md-text-font-family:"Roboto";--md-code-font-family:"Roboto Mono"}</style>
+      
+    
+    
+    
+      <link rel="stylesheet" href="../../../stylesheets/mkdocs-extra.css">
+    
+    
+      
+
+
+    
+    
+  </head>
+  
+  
+    
+    
+      
+    
+    
+    
+    
+    <body dir="ltr" data-md-color-scheme="default" data-md-color-primary="light-blue" data-md-color-accent="light-blue">
+  
+      <!-- Google Tag Manager (noscript) -->
+      <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-T3Z28HZ" height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+      <!-- End Google Tag Manager (noscript) -->
+    
+    <script>function __prefix(e){return e==="__palette"?e:new URL("../../..",location).pathname+"."+e}function __get(e,t=localStorage){return JSON.parse(t.getItem(__prefix(e)))}</script>
+    
+      <script>var palette=__get("__palette");if(null!==palette&&"object"==typeof palette.color)for(var key in palette.color)document.body.setAttribute("data-md-color-"+key,palette.color[key])</script>
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#self-documentation-resources-output" class="md-skip">
+          Skip to content
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+      <header class="md-header" data-md-component="header">
+  <nav class="md-header__inner md-grid" aria-label="Header">
+    <a href="https://www.expert.ai" target="_blank" title="expert.ai" class="md-header__button md-logo" aria-label="expert.ai">
+      <svg xmlns="http://www.w3.org/2000/svg" id="Layer_1" data-name="Layer 1" viewBox="0 0 248.29 222.5" version="1.1"><path d="M167.46 134.31a11.37 11.37 0 01-5.12 8.89l-21.62 12.52a11.37 11.37 0 01-10.26 0l-21.66-12.45a11.38 11.38 0 01-5.14-8.88v-25a11.35 11.35 0 015.12-8.89L130.37 88a11.37 11.37 0 0110.26 0l21.66 12.47a11.37 11.37 0 015.14 8.88z" id="path37" fill="#fff" transform="translate(-11.1 -10.66)"/><path id="path883-7" d="M147.545 8.917c-3.52 3.245-14.313 9.668-26.896 9.757C95.852 18.85 96.526.287 72.664.234 58.504.205 42.41 12.095 42.576 32.83 42.678 45.737 52.374 59.874 70 62.587c19.8 3.048 33.334-18.696 56.766-17.089 13.397.919 18.828 7.978 27.199 12.432 8.796 4.68 16.871 6.195 24.365 17.338 13.109 19.49 1.044 42.082 13.584 57.705 11.163 13.908 28.253 15.236 39.483 8.871 18.039-10.224 20.29-30.107 13.184-42.354-11.977-20.639-27.716-10.774-39.962-32.337-6.214-10.942-6.048-23.5-4.999-28.17 3.833-17.054-5.489-29.295-14.794-34.506-9.306-5.211-24.428-7.405-37.28 4.44z" fill="#fff"/><path id="path883-7-0" d="M101.2 213.24c3.52-3.245 14.313-9.667 26.896-9.757 24.798-.176 24.123 18.387 47.986 18.44 14.159.03 30.252-11.86 30.088-32.595-.103-12.907-9.798-27.044-27.425-29.758-19.8-3.048-33.333 18.697-56.766 17.09-13.397-.92-18.828-7.978-27.198-12.432-8.796-4.68-16.872-6.196-24.366-17.338-13.108-19.49-1.043-42.082-13.583-57.706-11.163-13.908-28.254-15.236-39.484-8.87C-.69 90.537-2.942 110.42 4.165 122.666c11.976 20.64 27.715 10.774 39.961 32.337 6.215 10.942 6.049 23.5 4.999 28.171-3.832 17.054 5.49 29.295 14.795 34.506 9.305 5.21 24.428 7.404 37.28-4.441z" fill="#fff"/></svg>
+    </a>
+    <a href="https://docs.expert.ai" title="docs.expert.ai" class="md-header__button md-logo" aria-label="docs.expert.ai">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M10 20v-6h4v6h5v-8h3L12 3 2 12h3v8h5z"/></svg>
+    </a>
+    <a href="../../.." title="expert.ai Natural Language API" class="md-header__button md-logo" aria-label="expert.ai Natural Language API" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54z"/></svg>
+
+    </a>
+    <label class="md-header__button md-icon" for="__drawer">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3V6m0 5h18v2H3v-2m0 5h18v2H3v-2z"/></svg>
+    </label>
+    <div class="md-header__title" data-md-component="header-title">
+      <div class="md-header__ellipsis">
+        <div class="md-header__topic">
+          <span class="md-ellipsis">
+            expert.ai Natural Language API
+          </span>
+        </div>
+        <div class="md-header__topic" data-md-component="header-topic">
+          <span class="md-ellipsis">
+            
+              Self-documentation resources
+            
+          </span>
+        </div>
+      </div>
+    </div>
+    
+      <form class="md-header__option" data-md-component="palette">
+        
+          
+          
+          <input class="md-option" data-md-color-media="(prefers-color-scheme: light)" data-md-color-scheme="default" data-md-color-primary="light-blue" data-md-color-accent="light-blue"  aria-label="Switch to dark mode"  type="radio" name="__palette" id="__palette_1">
+          
+            <label class="md-header__button md-icon" title="Switch to dark mode" for="__palette_2" hidden>
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M9.598 1.591a.75.75 0 0 1 .785-.175 7 7 0 1 1-8.967 8.967.75.75 0 0 1 .961-.96 5.5 5.5 0 0 0 7.046-7.046.75.75 0 0 1 .175-.786zm1.616 1.945a7 7 0 0 1-7.678 7.678 5.5 5.5 0 1 0 7.678-7.678z"/></svg>
+            </label>
+          
+        
+          
+          
+          <input class="md-option" data-md-color-media="(prefers-color-scheme: dark)" data-md-color-scheme="slate" data-md-color-primary="light-blue" data-md-color-accent="light-blue"  aria-label="Switch to light mode"  type="radio" name="__palette" id="__palette_2">
+          
+            <label class="md-header__button md-icon" title="Switch to light mode" for="__palette_1" hidden>
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M8 10.5a2.5 2.5 0 1 0 0-5 2.5 2.5 0 0 0 0 5zM8 12a4 4 0 1 0 0-8 4 4 0 0 0 0 8zM8 0a.75.75 0 0 1 .75.75v1.5a.75.75 0 0 1-1.5 0V.75A.75.75 0 0 1 8 0zm0 13a.75.75 0 0 1 .75.75v1.5a.75.75 0 0 1-1.5 0v-1.5A.75.75 0 0 1 8 13zM2.343 2.343a.75.75 0 0 1 1.061 0l1.06 1.061a.75.75 0 0 1-1.06 1.06l-1.06-1.06a.75.75 0 0 1 0-1.06zm9.193 9.193a.75.75 0 0 1 1.06 0l1.061 1.06a.75.75 0 0 1-1.06 1.061l-1.061-1.06a.75.75 0 0 1 0-1.061zM16 8a.75.75 0 0 1-.75.75h-1.5a.75.75 0 0 1 0-1.5h1.5A.75.75 0 0 1 16 8zM3 8a.75.75 0 0 1-.75.75H.75a.75.75 0 0 1 0-1.5h1.5A.75.75 0 0 1 3 8zm10.657-5.657a.75.75 0 0 1 0 1.061l-1.061 1.06a.75.75 0 1 1-1.06-1.06l1.06-1.06a.75.75 0 0 1 1.06 0zm-9.193 9.193a.75.75 0 0 1 0 1.06l-1.06 1.061a.75.75 0 1 1-1.061-1.06l1.06-1.061a.75.75 0 0 1 1.061 0z"/></svg>
+            </label>
+          
+        
+      </form>
+    
+    
+    
+      <label class="md-header__button md-icon" for="__search">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.516 6.516 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5z"/></svg>
+      </label>
+      
+<div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" aria-label="Search" placeholder="Search" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" required>
+      <label class="md-search__icon md-icon" for="__search">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.516 6.516 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5z"/></svg>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12z"/></svg>
+      </label>
+      <nav class="md-search__options" aria-label="Search">
+        
+        <button type="reset" class="md-search__icon md-icon" aria-label="Clear" tabindex="-1">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12 19 6.41z"/></svg>
+        </button>
+      </nav>
+      
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="search-result">
+          <div class="md-search-result__meta">
+            Initializing search
+          </div>
+          <ol class="md-search-result__list"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+    
+    
+  </nav>
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+
+<nav class="md-nav md-nav--primary" aria-label="Navigation" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href="../../.." title="expert.ai Natural Language API" class="md-nav__button md-logo" aria-label="expert.ai Natural Language API" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54z"/></svg>
+
+    </a>
+    expert.ai Natural Language API
+  </label>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+      
+
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../.." class="md-nav__link">
+        Introduction
+      </a>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_2" type="checkbox" id="__nav_2" >
+      
+      <label class="md-nav__link" for="__nav_2">
+        Quick start
+        <span class="md-nav__icon md-icon"></span>
+      </label>
+      <nav class="md-nav" aria-label="Quick start" data-md-level="1">
+        <label class="md-nav__title" for="__nav_2">
+          <span class="md-nav__icon md-icon"></span>
+          Quick start
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../quick-start/setup-client-tools/" class="md-nav__link">
+        1. Setup the client tools
+      </a>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../quick-start/token/" class="md-nav__link">
+        2. Get the token
+      </a>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../quick-start/first-call/" class="md-nav__link">
+        3. Make your first call
+      </a>
+    </li>
+  
+
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_3" type="checkbox" id="__nav_3" >
+      
+      <label class="md-nav__link" for="__nav_3">
+        Guide
+        <span class="md-nav__icon md-icon"></span>
+      </label>
+      <nav class="md-nav" aria-label="Guide" data-md-level="1">
+        <label class="md-nav__title" for="__nav_3">
+          <span class="md-nav__icon md-icon"></span>
+          Guide
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../guide/" class="md-nav__link">
+        Overview
+      </a>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_3_2" type="checkbox" id="__nav_3_2" >
+      
+      <label class="md-nav__link" for="__nav_3_2">
+        Document analysis
+        <span class="md-nav__icon md-icon"></span>
+      </label>
+      <nav class="md-nav" aria-label="Document analysis" data-md-level="2">
+        <label class="md-nav__title" for="__nav_3_2">
+          <span class="md-nav__icon md-icon"></span>
+          Document analysis
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../guide/full-analysis/" class="md-nav__link">
+        Full analysis
+      </a>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_3_2_2" type="checkbox" id="__nav_3_2_2" >
+      
+      <label class="md-nav__link" for="__nav_3_2_2">
+        Partial analyses
+        <span class="md-nav__icon md-icon"></span>
+      </label>
+      <nav class="md-nav" aria-label="Partial analyses" data-md-level="3">
+        <label class="md-nav__title" for="__nav_3_2_2">
+          <span class="md-nav__icon md-icon"></span>
+          Partial analyses
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_3_2_2_1" type="checkbox" id="__nav_3_2_2_1" >
+      
+      <label class="md-nav__link" for="__nav_3_2_2_1">
+        Deep linguistic analysis
+        <span class="md-nav__icon md-icon"></span>
+      </label>
+      <nav class="md-nav" aria-label="Deep linguistic analysis" data-md-level="4">
+        <label class="md-nav__title" for="__nav_3_2_2_1">
+          <span class="md-nav__icon md-icon"></span>
+          Deep linguistic analysis
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../guide/linguistic-analysis/" class="md-nav__link">
+        Overview
+      </a>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../guide/linguistic-analysis/subdivision/" class="md-nav__link">
+        Text subdivision
+      </a>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../guide/linguistic-analysis/pos-tagging/" class="md-nav__link">
+        Part-of-speech tagging
+      </a>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../guide/linguistic-analysis/morphological-analysis/" class="md-nav__link">
+        Morphological analysis
+      </a>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../guide/linguistic-analysis/lemmatization/" class="md-nav__link">
+        Lemmatization
+      </a>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../guide/linguistic-analysis/syntactic-analysis/" class="md-nav__link">
+        Syntactic analysis
+      </a>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../guide/linguistic-analysis/semantic-analysis/" class="md-nav__link">
+        Semantic analysis
+      </a>
+    </li>
+  
+
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../guide/keyphrase-extraction/" class="md-nav__link">
+        Keyphrase extraction
+      </a>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../guide/entity-recognition/" class="md-nav__link">
+        Named entity recognition
+      </a>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../guide/relation-extraction/" class="md-nav__link">
+        Relation extraction
+      </a>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../guide/sentiment-analysis/" class="md-nav__link">
+        Sentiment analysis
+      </a>
+    </li>
+  
+
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../guide/contexts-and-kg/" class="md-nav__link">
+        Contexts
+      </a>
+    </li>
+  
+
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_3_3" type="checkbox" id="__nav_3_3" >
+      
+      <label class="md-nav__link" for="__nav_3_3">
+        Document classification
+        <span class="md-nav__icon md-icon"></span>
+      </label>
+      <nav class="md-nav" aria-label="Document classification" data-md-level="2">
+        <label class="md-nav__title" for="__nav_3_3">
+          <span class="md-nav__icon md-icon"></span>
+          Document classification
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../guide/classification/" class="md-nav__link">
+        Overview
+      </a>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../guide/classification/iptc-media-topics/" class="md-nav__link">
+        IPTC Media Topics
+      </a>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../guide/classification/geotax/" class="md-nav__link">
+        GeoTax
+      </a>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../guide/classification/emotional-traits/" class="md-nav__link">
+        Emotional traits
+      </a>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../guide/classification/behavioral-traits/" class="md-nav__link">
+        Behavioral traits
+      </a>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../guide/classification/taxonomies-info/" class="md-nav__link">
+        Taxonomies info
+      </a>
+    </li>
+  
+
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_3_4" type="checkbox" id="__nav_3_4" >
+      
+      <label class="md-nav__link" for="__nav_3_4">
+        Information detection
+        <span class="md-nav__icon md-icon"></span>
+      </label>
+      <nav class="md-nav" aria-label="Information detection" data-md-level="2">
+        <label class="md-nav__title" for="__nav_3_4">
+          <span class="md-nav__icon md-icon"></span>
+          Information detection
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../guide/detection/" class="md-nav__link">
+        Overview
+      </a>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../guide/detection/pii/" class="md-nav__link">
+        PII
+      </a>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../guide/detection/writeprint/" class="md-nav__link">
+        Writeprint
+      </a>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../guide/detection/temporal-information/" class="md-nav__link">
+        Temporal information
+      </a>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../guide/detection/detectors-info/" class="md-nav__link">
+        Detectors info
+      </a>
+    </li>
+  
+
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../how-to/" class="md-nav__link">
+        Developer how-to
+      </a>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+    
+  
+  
+    
+    <li class="md-nav__item md-nav__item--active md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_5" type="checkbox" id="__nav_5" checked>
+      
+      <label class="md-nav__link" for="__nav_5">
+        Reference
+        <span class="md-nav__icon md-icon"></span>
+      </label>
+      <nav class="md-nav" aria-label="Reference" data-md-level="1">
+        <label class="md-nav__title" for="__nav_5">
+          <span class="md-nav__icon md-icon"></span>
+          Reference
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../" class="md-nav__link">
+        Contents
+      </a>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../endpoints/" class="md-nav__link">
+        Endpoints
+      </a>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../request-format/" class="md-nav__link">
+        Request format
+      </a>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../http-status-codes/" class="md-nav__link">
+        HTTP status codes
+      </a>
+    </li>
+  
+
+          
+            
+  
+  
+    
+  
+  
+    
+    <li class="md-nav__item md-nav__item--active md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_5_5" type="checkbox" id="__nav_5_5" checked>
+      
+      <label class="md-nav__link" for="__nav_5_5">
+        Output
+        <span class="md-nav__icon md-icon"></span>
+      </label>
+      <nav class="md-nav" aria-label="Output" data-md-level="2">
+        <label class="md-nav__title" for="__nav_5_5">
+          <span class="md-nav__icon md-icon"></span>
+          Output
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../" class="md-nav__link">
+        Overview
+      </a>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_5_5_2" type="checkbox" id="__nav_5_5_2" >
+      
+      <label class="md-nav__link" for="__nav_5_5_2">
+        Document analysis
+        <span class="md-nav__icon md-icon"></span>
+      </label>
+      <nav class="md-nav" aria-label="Document analysis" data-md-level="3">
+        <label class="md-nav__title" for="__nav_5_5_2">
+          <span class="md-nav__icon md-icon"></span>
+          Document analysis
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../full-analysis/" class="md-nav__link">
+        Full analysis
+      </a>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_5_5_2_2" type="checkbox" id="__nav_5_5_2_2" >
+      
+      <label class="md-nav__link" for="__nav_5_5_2_2">
+        Partial analyses
+        <span class="md-nav__icon md-icon"></span>
+      </label>
+      <nav class="md-nav" aria-label="Partial analyses" data-md-level="4">
+        <label class="md-nav__title" for="__nav_5_5_2_2">
+          <span class="md-nav__icon md-icon"></span>
+          Partial analyses
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../linguistic-analysis/" class="md-nav__link">
+        Deep linguistic analysis
+      </a>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../keyphrase-extraction/" class="md-nav__link">
+        Keyphrase extraction
+      </a>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../entity-recognition/" class="md-nav__link">
+        Named entity recognition
+      </a>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../relation-extraction/" class="md-nav__link">
+        Relation extraction
+      </a>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../sentiment-analysis/" class="md-nav__link">
+        Sentiment analysis
+      </a>
+    </li>
+  
+
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../classification/" class="md-nav__link">
+        Document classification
+      </a>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_5_5_4" type="checkbox" id="__nav_5_5_4" >
+      
+      <label class="md-nav__link" for="__nav_5_5_4">
+        Information detection
+        <span class="md-nav__icon md-icon"></span>
+      </label>
+      <nav class="md-nav" aria-label="Information detection" data-md-level="3">
+        <label class="md-nav__title" for="__nav_5_5_4">
+          <span class="md-nav__icon md-icon"></span>
+          Information detection
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../detection/" class="md-nav__link">
+        Overview
+      </a>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../detection/pii/" class="md-nav__link">
+        PII
+      </a>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../detection/writeprint/" class="md-nav__link">
+        Writeprint
+      </a>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../detection/temporal-information/" class="md-nav__link">
+        Temporal information
+      </a>
+    </li>
+  
+
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+          
+            
+  
+  
+    
+  
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" data-md-toggle="toc" type="checkbox" id="__toc">
+      
+      
+        
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          Self-documentation resources
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
+        Self-documentation resources
+      </a>
+      
+        
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#overview" class="md-nav__link">
+    Overview
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#contexts" class="md-nav__link">
+    contexts
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#taxonomies" class="md-nav__link">
+    taxonomies
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#taxonomies-child-resources" class="md-nav__link">
+    taxonomies child resources
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#detectors" class="md-nav__link">
+    detectors
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
+    </li>
+  
+
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../managed-errors/" class="md-nav__link">
+        Managed errors
+      </a>
+    </li>
+  
+
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../positions/" class="md-nav__link">
+        Positions
+      </a>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../phrase-types/" class="md-nav__link">
+        Phrase types
+      </a>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../dependency-representation/" class="md-nav__link">
+        Dependency representation
+      </a>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../topics/" class="md-nav__link">
+        Standard context topics
+      </a>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../entity-types/" class="md-nav__link">
+        Entity types
+      </a>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../categories/" class="md-nav__link">
+        Categories
+      </a>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../expert-ai-types/" class="md-nav__link">
+        expert.ai types
+      </a>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../geojson/" class="md-nav__link">
+        GeoJSON classification
+      </a>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../emotional-traits-main-groups/" class="md-nav__link">
+        Main groups of emotional traits
+      </a>
+    </li>
+  
+
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../release-notes/" class="md-nav__link">
+        Release notes
+      </a>
+    </li>
+  
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+              
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="sidebar" data-md-type="toc" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#overview" class="md-nav__link">
+    Overview
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#contexts" class="md-nav__link">
+    contexts
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#taxonomies" class="md-nav__link">
+    taxonomies
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#taxonomies-child-resources" class="md-nav__link">
+    taxonomies child resources
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#detectors" class="md-nav__link">
+    detectors
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+          
+          <div class="md-content" data-md-component="content">
+            <article class="md-content__inner md-typeset">
+              
+                
+                
+                <h1 id="self-documentation-resources-output">Self-documentation resources output</h1>
+<h2 id="overview">Overview</h2>
+<p><code>contexts</code>, <code>taxonomies</code>, <code>detectors</code> and the child resources of <code>taxonomies</code> are API self-documentation resources they return information on the contexts available for document analysis, the taxonomies available for document classification and the detectors available for information detection. See the format of the resources' endpoints in the <a href="../../endpoints/">reference page</a>.</p>
+<h2 id="contexts">contexts</h2>
+<p>The <code>contexts</code> resource returns a JSON object like this:</p>
+<div class="codehilite"><pre><span></span><code><span class="p">{</span>
+    <span class="nt">&quot;contexts&quot;</span><span class="p">:</span> <span class="p">[</span>
+        <span class="p">{</span>
+            <span class="nt">&quot;description&quot;</span><span class="p">:</span> <span class="s2">&quot;Standard context&quot;</span><span class="p">,</span>
+            <span class="nt">&quot;languages&quot;</span><span class="p">:</span> <span class="p">[</span>
+                <span class="p">{</span>
+                    <span class="nt">&quot;analyses&quot;</span><span class="p">:</span> <span class="p">[</span>
+                        <span class="s2">&quot;disambiguation&quot;</span><span class="p">,</span>
+                        <span class="s2">&quot;relevants&quot;</span><span class="p">,</span>
+                        <span class="s2">&quot;entities&quot;</span><span class="p">,</span>
+                        <span class="s2">&quot;sentiment&quot;</span><span class="p">,</span>
+                        <span class="s2">&quot;relations&quot;</span>
+                    <span class="p">],</span>
+                    <span class="nt">&quot;code&quot;</span><span class="p">:</span> <span class="s2">&quot;en&quot;</span><span class="p">,</span>
+                    <span class="nt">&quot;name&quot;</span><span class="p">:</span> <span class="s2">&quot;English&quot;</span>
+                <span class="p">},</span>
+                <span class="p">{</span>
+                    <span class="nt">&quot;analyses&quot;</span><span class="p">:</span> <span class="p">[</span>
+                        <span class="s2">&quot;disambiguation&quot;</span><span class="p">,</span>
+                        <span class="s2">&quot;relevants&quot;</span><span class="p">,</span>
+                        <span class="s2">&quot;entities&quot;</span><span class="p">,</span>
+                        <span class="s2">&quot;relations&quot;</span>
+                    <span class="p">],</span>
+                    <span class="nt">&quot;code&quot;</span><span class="p">:</span> <span class="s2">&quot;es&quot;</span><span class="p">,</span>
+                    <span class="nt">&quot;name&quot;</span><span class="p">:</span> <span class="s2">&quot;Spanish&quot;</span>
+                <span class="p">},</span>
+                <span class="p">{</span>
+                    <span class="nt">&quot;analyses&quot;</span><span class="p">:</span> <span class="p">[</span>
+                        <span class="s2">&quot;disambiguation&quot;</span><span class="p">,</span>
+                        <span class="s2">&quot;relevants&quot;</span><span class="p">,</span>
+                        <span class="s2">&quot;entities&quot;</span><span class="p">,</span>
+                        <span class="s2">&quot;relations&quot;</span>
+                    <span class="p">],</span>
+                    <span class="nt">&quot;code&quot;</span><span class="p">:</span> <span class="s2">&quot;fr&quot;</span><span class="p">,</span>
+                    <span class="nt">&quot;name&quot;</span><span class="p">:</span> <span class="s2">&quot;French&quot;</span>
+                <span class="p">},</span>
+                <span class="p">{</span>
+                    <span class="nt">&quot;analyses&quot;</span><span class="p">:</span> <span class="p">[</span>
+                        <span class="s2">&quot;disambiguation&quot;</span><span class="p">,</span>
+                        <span class="s2">&quot;relevants&quot;</span><span class="p">,</span>
+                        <span class="s2">&quot;entities&quot;</span><span class="p">,</span>
+                        <span class="s2">&quot;relations&quot;</span>
+                    <span class="p">],</span>
+                    <span class="nt">&quot;code&quot;</span><span class="p">:</span> <span class="s2">&quot;de&quot;</span><span class="p">,</span>
+                    <span class="nt">&quot;name&quot;</span><span class="p">:</span> <span class="s2">&quot;German&quot;</span>
+                <span class="p">},</span>
+                <span class="p">{</span>
+                    <span class="nt">&quot;analyses&quot;</span><span class="p">:</span> <span class="p">[</span>
+                        <span class="s2">&quot;disambiguation&quot;</span><span class="p">,</span>
+                        <span class="s2">&quot;relevants&quot;</span><span class="p">,</span>
+                        <span class="s2">&quot;entities&quot;</span><span class="p">,</span>
+                        <span class="s2">&quot;relations&quot;</span>
+                    <span class="p">],</span>
+                    <span class="nt">&quot;code&quot;</span><span class="p">:</span> <span class="s2">&quot;it&quot;</span><span class="p">,</span>
+                    <span class="nt">&quot;name&quot;</span><span class="p">:</span> <span class="s2">&quot;Italian&quot;</span>
+                <span class="p">}</span>
+            <span class="p">],</span>
+            <span class="nt">&quot;name&quot;</span><span class="p">:</span> <span class="s2">&quot;standard&quot;</span>
+        <span class="p">}</span>
+    <span class="p">]</span>
+<span class="p">}</span>
+</code></pre></div>
+
+
+<p>The <code>contexts</code> array contains one object for each context. <br />
+The <code>name</code> property is the exact name that must be used in the endpoint of analysis resources.</p>
+<p>The <code>languages</code> array documents the context's capabilities in terms of the analyses available for each of the supported languages.<br />
+<code>code</code> id the <a href="https://en.wikipedia.org/wiki/ISO_639-1" target="_blank">ISO 639-1 language code</a>, <code>analyses</code> is an array listing available analyses for the language. The value of the <code>analyses</code> are the exact names that must be used in the endpoint of partial analysis resources.</p>
+<h2 id="taxonomies">taxonomies</h2>
+<p>The <code>taxonomies</code> resource returns a JSON object like this:</p>
+<div class="codehilite"><pre><span></span><code><span class="p">{</span>
+    <span class="nt">&quot;taxonomies&quot;</span><span class="p">:</span> <span class="p">[</span>
+        <span class="p">{</span>
+            <span class="nt">&quot;description&quot;</span><span class="p">:</span> <span class="s2">&quot;The iptc document classification resources classify texts based on the IPTC Media Topics taxonomy&quot;</span><span class="p">,</span>
+            <span class="nt">&quot;languages&quot;</span><span class="p">:</span> <span class="p">[</span>
+                <span class="p">{</span>
+                    <span class="nt">&quot;code&quot;</span><span class="p">:</span> <span class="s2">&quot;en&quot;</span><span class="p">,</span>
+                    <span class="nt">&quot;name&quot;</span><span class="p">:</span> <span class="s2">&quot;English&quot;</span>
+                <span class="p">},</span>
+                <span class="p">{</span>
+                    <span class="nt">&quot;code&quot;</span><span class="p">:</span> <span class="s2">&quot;es&quot;</span><span class="p">,</span>
+                    <span class="nt">&quot;name&quot;</span><span class="p">:</span> <span class="s2">&quot;Spanish&quot;</span>
+                <span class="p">},</span>
+                <span class="p">{</span>
+                    <span class="nt">&quot;code&quot;</span><span class="p">:</span> <span class="s2">&quot;fr&quot;</span><span class="p">,</span>
+                    <span class="nt">&quot;name&quot;</span><span class="p">:</span> <span class="s2">&quot;French&quot;</span>
+                <span class="p">},</span>
+                <span class="p">{</span>
+                    <span class="nt">&quot;code&quot;</span><span class="p">:</span> <span class="s2">&quot;de&quot;</span><span class="p">,</span>
+                    <span class="nt">&quot;name&quot;</span><span class="p">:</span> <span class="s2">&quot;German&quot;</span>
+                <span class="p">},</span>
+                <span class="p">{</span>
+                    <span class="nt">&quot;code&quot;</span><span class="p">:</span> <span class="s2">&quot;it&quot;</span><span class="p">,</span>
+                    <span class="nt">&quot;name&quot;</span><span class="p">:</span> <span class="s2">&quot;Italian&quot;</span>
+                <span class="p">}</span>
+            <span class="p">],</span>
+            <span class="nt">&quot;name&quot;</span><span class="p">:</span> <span class="s2">&quot;iptc&quot;</span>
+        <span class="p">},</span>
+        <span class="p">{</span>
+            <span class="nt">&quot;contract&quot;</span><span class="p">:</span> <span class="s2">&quot;https://github.com/therealexpertai/nlapi-openapi-specification/blob/master/geotax-w-geojson.yaml&quot;</span><span class="p">,</span>
+            <span class="nt">&quot;description&quot;</span><span class="p">:</span> <span class="s2">&quot;The geotax document classification resources recognize geographic places cited in the text and return corresponding countries&#39; names. In addition, when requested with a specific query-string parameter, they return extra-data containing equivalent GeoJSON objects. Refer to the specific OpenAPI document (https://github.com/therealexpertai/nlapi-openapi-specification/blob/master/geotax-w-geojson.yaml) for this special use of the API resources.&quot;</span><span class="p">,</span>
+            <span class="nt">&quot;languages&quot;</span><span class="p">:</span> <span class="p">[</span>
+                <span class="p">{</span>
+                    <span class="nt">&quot;code&quot;</span><span class="p">:</span> <span class="s2">&quot;en&quot;</span><span class="p">,</span>
+                    <span class="nt">&quot;name&quot;</span><span class="p">:</span> <span class="s2">&quot;English&quot;</span>
+                <span class="p">},</span>
+                <span class="p">{</span>
+                    <span class="nt">&quot;code&quot;</span><span class="p">:</span> <span class="s2">&quot;es&quot;</span><span class="p">,</span>
+                    <span class="nt">&quot;name&quot;</span><span class="p">:</span> <span class="s2">&quot;Spanish&quot;</span>
+                <span class="p">},</span>
+                <span class="p">{</span>
+                    <span class="nt">&quot;code&quot;</span><span class="p">:</span> <span class="s2">&quot;fr&quot;</span><span class="p">,</span>
+                    <span class="nt">&quot;name&quot;</span><span class="p">:</span> <span class="s2">&quot;French&quot;</span>
+                <span class="p">},</span>
+                <span class="p">{</span>
+                    <span class="nt">&quot;code&quot;</span><span class="p">:</span> <span class="s2">&quot;de&quot;</span><span class="p">,</span>
+                    <span class="nt">&quot;name&quot;</span><span class="p">:</span> <span class="s2">&quot;German&quot;</span>
+                <span class="p">},</span>
+                <span class="p">{</span>
+                    <span class="nt">&quot;code&quot;</span><span class="p">:</span> <span class="s2">&quot;it&quot;</span><span class="p">,</span>
+                    <span class="nt">&quot;name&quot;</span><span class="p">:</span> <span class="s2">&quot;Italian&quot;</span>
+                <span class="p">}</span>
+            <span class="p">],</span>
+            <span class="nt">&quot;name&quot;</span><span class="p">:</span> <span class="s2">&quot;geotax&quot;</span>
+        <span class="p">},</span>
+        <span class="p">{</span>
+            <span class="nt">&quot;description&quot;</span><span class="p">:</span> <span class="s2">&quot;The emotional-traits document classification resources classify documents in terms of feelings like joy, surprise, irritation, etc. expressed in the text. In addition, when requested with a specific query-string parameter, they return extra-data containing the main groups to which the emotional traits belong. Especially with longer texts, main groups are an useful abstract of the detailed classification. Refer to the specific OpenAPI document (https://github.com/therealexpertai/nlapi-openapi-specification/blob/master/emotional-traits-w-main-groups.yaml) for this special use of the API resources.&quot;</span><span class="p">,</span>
+            <span class="nt">&quot;languages&quot;</span><span class="p">:</span> <span class="p">[</span>
+                <span class="p">{</span>
+                    <span class="nt">&quot;code&quot;</span><span class="p">:</span> <span class="s2">&quot;en&quot;</span><span class="p">,</span>
+                    <span class="nt">&quot;name&quot;</span><span class="p">:</span> <span class="s2">&quot;English&quot;</span>
+                <span class="p">}</span>
+            <span class="p">],</span>
+            <span class="nt">&quot;name&quot;</span><span class="p">:</span> <span class="s2">&quot;emotional-traits&quot;</span>
+        <span class="p">},</span>
+        <span class="p">{</span>
+            <span class="nt">&quot;description&quot;</span><span class="p">:</span> <span class="s2">&quot;The behavioral-traits document classification resources classify document in terms of personality traits like curiosity, honesty, negativity, etc. the text deals with.&quot;</span><span class="p">,</span>
+            <span class="nt">&quot;languages&quot;</span><span class="p">:</span> <span class="p">[</span>
+                <span class="p">{</span>
+                    <span class="nt">&quot;code&quot;</span><span class="p">:</span> <span class="s2">&quot;en&quot;</span><span class="p">,</span>
+                    <span class="nt">&quot;name&quot;</span><span class="p">:</span> <span class="s2">&quot;English&quot;</span>
+                <span class="p">}</span>
+            <span class="p">],</span>
+            <span class="nt">&quot;name&quot;</span><span class="p">:</span> <span class="s2">&quot;behavioral-traits&quot;</span>
+        <span class="p">}</span>
+    <span class="p">]</span>
+<span class="p">}</span>
+</code></pre></div>
+
+
+<p>The <code>taxonomies</code> array contains one object for each taxonomy.<br />
+The <code>name</code> property is the exact name that must be used in the endpoint of classification resources and also in the endpoint of <code>taxonomy</code> child resources.<br />
+The <code>contract</code> property, which is optional, contains the URL of the OpenAPI document describing a special use of the taxonomy. For example, in the case of the <code>geotax</code> taxonomy, the OpenAPI document defines the way to <a href="../../geojson/">use the classification resource to obtain a GeoJSON output</a>.</p>
+<p>The <code>languages</code> array lists the languages for which the taxonomy is available.<br />
+<code>code</code> id the <a href="https://en.wikipedia.org/wiki/ISO_639-1" target="_blank">ISO 639-1 language code</a>.</p>
+<h2 id="taxonomies-child-resources">taxonomies child resources</h2>
+<p><code>taxonomies/{taxonomy}/{language}</code> resources return the category tree ​for a given taxonomy in a given language. Their output is a JSON object like this:</p>
+<div class="codehilite"><pre><span></span><code><span class="p">{</span>
+    <span class="nt">&quot;success&quot;</span><span class="p">:</span> <span class="kc">true</span><span class="p">,</span>
+    <span class="nt">&quot;data&quot;</span><span class="p">:</span> <span class="p">[</span>
+        <span class="p">{</span>
+            <span class="nt">&quot;namespace&quot;</span><span class="p">:</span> <span class="s2">&quot;cat-geo_en_1.0&quot;</span><span class="p">,</span>
+            <span class="nt">&quot;taxonomy&quot;</span><span class="p">:</span> <span class="p">[</span>
+                <span class="p">{</span>
+                    <span class="nt">&quot;id&quot;</span><span class="p">:</span> <span class="s2">&quot;GEO_TAX&quot;</span><span class="p">,</span>
+                    <span class="nt">&quot;label&quot;</span><span class="p">:</span> <span class="s2">&quot;Geo Taxonomy&quot;</span><span class="p">,</span>
+                    <span class="nt">&quot;categories&quot;</span><span class="p">:</span> <span class="p">[</span>
+                        <span class="p">{</span>
+                            <span class="nt">&quot;id&quot;</span><span class="p">:</span> <span class="s2">&quot;001.&quot;</span><span class="p">,</span>
+                            <span class="nt">&quot;label&quot;</span><span class="p">:</span> <span class="s2">&quot;Afghanistan&quot;</span>
+                        <span class="p">},</span>
+                        <span class="p">{</span>
+                            <span class="nt">&quot;id&quot;</span><span class="p">:</span> <span class="s2">&quot;002.&quot;</span><span class="p">,</span>
+                            <span class="nt">&quot;label&quot;</span><span class="p">:</span> <span class="s2">&quot;Albania&quot;</span>
+                        <span class="p">},</span>
+                        <span class="p">{</span>
+                            <span class="nt">&quot;id&quot;</span><span class="p">:</span> <span class="s2">&quot;003.&quot;</span><span class="p">,</span>
+                            <span class="nt">&quot;label&quot;</span><span class="p">:</span> <span class="s2">&quot;Algeria&quot;</span>
+                        <span class="p">},</span>
+                        <span class="p">{</span>
+                            <span class="nt">&quot;id&quot;</span><span class="p">:</span> <span class="s2">&quot;004.&quot;</span><span class="p">,</span>
+                            <span class="nt">&quot;label&quot;</span><span class="p">:</span> <span class="s2">&quot;Andorra&quot;</span>
+                        <span class="p">},</span>
+                        <span class="p">{</span>
+                            <span class="nt">&quot;id&quot;</span><span class="p">:</span> <span class="s2">&quot;005.&quot;</span><span class="p">,</span>
+                            <span class="nt">&quot;label&quot;</span><span class="p">:</span> <span class="s2">&quot;Angola&quot;</span>
+                        <span class="p">},</span>
+                        <span class="p">{</span>
+                            <span class="nt">&quot;id&quot;</span><span class="p">:</span> <span class="s2">&quot;006.&quot;</span><span class="p">,</span>
+                            <span class="nt">&quot;label&quot;</span><span class="p">:</span> <span class="s2">&quot;Antigua and Barbuda&quot;</span>
+                        <span class="p">},</span>
+                        <span class="p">{</span>
+                            <span class="nt">&quot;id&quot;</span><span class="p">:</span> <span class="s2">&quot;007.&quot;</span><span class="p">,</span>
+                            <span class="nt">&quot;label&quot;</span><span class="p">:</span> <span class="s2">&quot;Argentina&quot;</span>
+                        <span class="p">},</span>
+                        <span class="p">{</span>
+                            <span class="nt">&quot;id&quot;</span><span class="p">:</span> <span class="s2">&quot;008.&quot;</span><span class="p">,</span>
+                            <span class="nt">&quot;label&quot;</span><span class="p">:</span> <span class="s2">&quot;Armenia&quot;</span>
+                        <span class="p">},</span>
+                        <span class="p">{</span>
+                            <span class="nt">&quot;id&quot;</span><span class="p">:</span> <span class="s2">&quot;009.&quot;</span><span class="p">,</span>
+                            <span class="nt">&quot;label&quot;</span><span class="p">:</span> <span class="s2">&quot;Australia&quot;</span>
+                        <span class="p">},</span>
+                        <span class="p">{</span>
+                            <span class="nt">&quot;id&quot;</span><span class="p">:</span> <span class="s2">&quot;010.&quot;</span><span class="p">,</span>
+                            <span class="nt">&quot;label&quot;</span><span class="p">:</span> <span class="s2">&quot;Austria&quot;</span>
+                        <span class="p">},</span>
+                        <span class="p">{</span>
+                            <span class="nt">&quot;id&quot;</span><span class="p">:</span> <span class="s2">&quot;011.&quot;</span><span class="p">,</span>
+                            <span class="nt">&quot;label&quot;</span><span class="p">:</span> <span class="s2">&quot;Azerbaijan&quot;</span>
+                        <span class="p">},</span>
+                        <span class="p">{</span>
+                            <span class="nt">&quot;id&quot;</span><span class="p">:</span> <span class="s2">&quot;012.&quot;</span><span class="p">,</span>
+                            <span class="nt">&quot;label&quot;</span><span class="p">:</span> <span class="s2">&quot;Bahamas&quot;</span>
+                        <span class="p">},</span>
+                        <span class="p">{</span>
+                            <span class="nt">&quot;id&quot;</span><span class="p">:</span> <span class="s2">&quot;013.&quot;</span><span class="p">,</span>
+                            <span class="nt">&quot;label&quot;</span><span class="p">:</span> <span class="s2">&quot;Bahrain&quot;</span>
+                        <span class="p">},</span>
+                        <span class="p">{</span>
+                            <span class="nt">&quot;id&quot;</span><span class="p">:</span> <span class="s2">&quot;014.&quot;</span><span class="p">,</span>
+                            <span class="nt">&quot;label&quot;</span><span class="p">:</span> <span class="s2">&quot;Bangladesh&quot;</span>
+                        <span class="p">},</span>
+                        <span class="p">{</span>
+                            <span class="nt">&quot;id&quot;</span><span class="p">:</span> <span class="s2">&quot;015.&quot;</span><span class="p">,</span>
+                            <span class="nt">&quot;label&quot;</span><span class="p">:</span> <span class="s2">&quot;Barbados&quot;</span>
+                        <span class="p">},</span>
+                        <span class="p">{</span>
+                            <span class="nt">&quot;id&quot;</span><span class="p">:</span> <span class="s2">&quot;016.&quot;</span><span class="p">,</span>
+                            <span class="nt">&quot;label&quot;</span><span class="p">:</span> <span class="s2">&quot;Belarus&quot;</span>
+                        <span class="p">},</span>
+                        <span class="p">{</span>
+                            <span class="nt">&quot;id&quot;</span><span class="p">:</span> <span class="s2">&quot;017.&quot;</span><span class="p">,</span>
+                            <span class="nt">&quot;label&quot;</span><span class="p">:</span> <span class="s2">&quot;Belgium&quot;</span>
+                        <span class="p">},</span>
+                        <span class="p">{</span>
+                            <span class="nt">&quot;id&quot;</span><span class="p">:</span> <span class="s2">&quot;018.&quot;</span><span class="p">,</span>
+                            <span class="nt">&quot;label&quot;</span><span class="p">:</span> <span class="s2">&quot;Belize&quot;</span>
+                        <span class="p">},</span>
+                        <span class="p">{</span>
+                            <span class="nt">&quot;id&quot;</span><span class="p">:</span> <span class="s2">&quot;019.&quot;</span><span class="p">,</span>
+                            <span class="nt">&quot;label&quot;</span><span class="p">:</span> <span class="s2">&quot;Benin&quot;</span>
+                        <span class="p">},</span>
+                        <span class="p">{</span>
+                            <span class="nt">&quot;id&quot;</span><span class="p">:</span> <span class="s2">&quot;020.&quot;</span><span class="p">,</span>
+                            <span class="nt">&quot;label&quot;</span><span class="p">:</span> <span class="s2">&quot;Bhutan&quot;</span>
+                        <span class="p">},</span>
+                        <span class="p">{</span>
+                            <span class="nt">&quot;id&quot;</span><span class="p">:</span> <span class="s2">&quot;021.&quot;</span><span class="p">,</span>
+                            <span class="nt">&quot;label&quot;</span><span class="p">:</span> <span class="s2">&quot;Bolivia&quot;</span>
+                        <span class="p">},</span>
+                        <span class="p">{</span>
+                            <span class="nt">&quot;id&quot;</span><span class="p">:</span> <span class="s2">&quot;022.&quot;</span><span class="p">,</span>
+                            <span class="nt">&quot;label&quot;</span><span class="p">:</span> <span class="s2">&quot;Bosnia-Herzegovina&quot;</span>
+                        <span class="p">},</span>
+                        <span class="p">{</span>
+                            <span class="nt">&quot;id&quot;</span><span class="p">:</span> <span class="s2">&quot;023.&quot;</span><span class="p">,</span>
+                            <span class="nt">&quot;label&quot;</span><span class="p">:</span> <span class="s2">&quot;Botswana&quot;</span>
+                        <span class="p">},</span>
+                        <span class="p">{</span>
+                            <span class="nt">&quot;id&quot;</span><span class="p">:</span> <span class="s2">&quot;024.&quot;</span><span class="p">,</span>
+                            <span class="nt">&quot;label&quot;</span><span class="p">:</span> <span class="s2">&quot;Brazil&quot;</span>
+                        <span class="p">},</span>
+                        <span class="p">{</span>
+                            <span class="nt">&quot;id&quot;</span><span class="p">:</span> <span class="s2">&quot;025.&quot;</span><span class="p">,</span>
+                            <span class="nt">&quot;label&quot;</span><span class="p">:</span> <span class="s2">&quot;Brunei&quot;</span>
+                        <span class="p">},</span>
+                        <span class="p">{</span>
+                            <span class="nt">&quot;id&quot;</span><span class="p">:</span> <span class="s2">&quot;026.&quot;</span><span class="p">,</span>
+                            <span class="nt">&quot;label&quot;</span><span class="p">:</span> <span class="s2">&quot;Bulgaria&quot;</span>
+                        <span class="p">},</span>
+                        <span class="p">{</span>
+                            <span class="nt">&quot;id&quot;</span><span class="p">:</span> <span class="s2">&quot;027.&quot;</span><span class="p">,</span>
+                            <span class="nt">&quot;label&quot;</span><span class="p">:</span> <span class="s2">&quot;Burkina Faso&quot;</span>
+                        <span class="p">},</span>
+                        <span class="p">{</span>
+                            <span class="nt">&quot;id&quot;</span><span class="p">:</span> <span class="s2">&quot;028.&quot;</span><span class="p">,</span>
+                            <span class="nt">&quot;label&quot;</span><span class="p">:</span> <span class="s2">&quot;Burundi&quot;</span>
+                        <span class="p">},</span>
+                        <span class="p">{</span>
+                            <span class="nt">&quot;id&quot;</span><span class="p">:</span> <span class="s2">&quot;029.&quot;</span><span class="p">,</span>
+                            <span class="nt">&quot;label&quot;</span><span class="p">:</span> <span class="s2">&quot;Cambodia&quot;</span>
+                        <span class="p">},</span>
+                        <span class="p">{</span>
+                            <span class="nt">&quot;id&quot;</span><span class="p">:</span> <span class="s2">&quot;030.&quot;</span><span class="p">,</span>
+                            <span class="nt">&quot;label&quot;</span><span class="p">:</span> <span class="s2">&quot;Cameroon&quot;</span>
+                        <span class="p">},</span>
+                        <span class="p">{</span>
+                            <span class="nt">&quot;id&quot;</span><span class="p">:</span> <span class="s2">&quot;031.&quot;</span><span class="p">,</span>
+                            <span class="nt">&quot;label&quot;</span><span class="p">:</span> <span class="s2">&quot;Canada&quot;</span>
+                        <span class="p">},</span>
+                        <span class="p">{</span>
+                            <span class="nt">&quot;id&quot;</span><span class="p">:</span> <span class="s2">&quot;032.&quot;</span><span class="p">,</span>
+                            <span class="nt">&quot;label&quot;</span><span class="p">:</span> <span class="s2">&quot;Cape Verde&quot;</span>
+                        <span class="p">},</span>
+                        <span class="p">{</span>
+                            <span class="nt">&quot;id&quot;</span><span class="p">:</span> <span class="s2">&quot;033.&quot;</span><span class="p">,</span>
+                            <span class="nt">&quot;label&quot;</span><span class="p">:</span> <span class="s2">&quot;Central African Republic&quot;</span>
+                        <span class="p">},</span>
+                        <span class="p">{</span>
+                            <span class="nt">&quot;id&quot;</span><span class="p">:</span> <span class="s2">&quot;034.&quot;</span><span class="p">,</span>
+                            <span class="nt">&quot;label&quot;</span><span class="p">:</span> <span class="s2">&quot;Chad&quot;</span>
+                        <span class="p">},</span>
+                        <span class="p">{</span>
+                            <span class="nt">&quot;id&quot;</span><span class="p">:</span> <span class="s2">&quot;035.&quot;</span><span class="p">,</span>
+                            <span class="nt">&quot;label&quot;</span><span class="p">:</span> <span class="s2">&quot;Chile&quot;</span>
+                        <span class="p">},</span>
+                        <span class="p">{</span>
+                            <span class="nt">&quot;id&quot;</span><span class="p">:</span> <span class="s2">&quot;036.&quot;</span><span class="p">,</span>
+                            <span class="nt">&quot;label&quot;</span><span class="p">:</span> <span class="s2">&quot;China&quot;</span>
+                        <span class="p">},</span>
+                        <span class="p">{</span>
+                            <span class="nt">&quot;id&quot;</span><span class="p">:</span> <span class="s2">&quot;037.&quot;</span><span class="p">,</span>
+                            <span class="nt">&quot;label&quot;</span><span class="p">:</span> <span class="s2">&quot;Colombia&quot;</span>
+                        <span class="p">},</span>
+                        <span class="p">{</span>
+                            <span class="nt">&quot;id&quot;</span><span class="p">:</span> <span class="s2">&quot;038.&quot;</span><span class="p">,</span>
+                            <span class="nt">&quot;label&quot;</span><span class="p">:</span> <span class="s2">&quot;Comoros&quot;</span>
+                        <span class="p">},</span>
+                        <span class="p">{</span>
+                            <span class="nt">&quot;id&quot;</span><span class="p">:</span> <span class="s2">&quot;039.&quot;</span><span class="p">,</span>
+                            <span class="nt">&quot;label&quot;</span><span class="p">:</span> <span class="s2">&quot;Costa Rica&quot;</span>
+                        <span class="p">},</span>
+                        <span class="p">{</span>
+                            <span class="nt">&quot;id&quot;</span><span class="p">:</span> <span class="s2">&quot;040.&quot;</span><span class="p">,</span>
+                            <span class="nt">&quot;label&quot;</span><span class="p">:</span> <span class="s2">&quot;Côte d&#39;Ivoire&quot;</span>
+                        <span class="p">},</span>
+                        <span class="p">{</span>
+                            <span class="nt">&quot;id&quot;</span><span class="p">:</span> <span class="s2">&quot;041.&quot;</span><span class="p">,</span>
+                            <span class="nt">&quot;label&quot;</span><span class="p">:</span> <span class="s2">&quot;Croatia&quot;</span>
+                        <span class="p">},</span>
+                        <span class="p">{</span>
+                            <span class="nt">&quot;id&quot;</span><span class="p">:</span> <span class="s2">&quot;042.&quot;</span><span class="p">,</span>
+                            <span class="nt">&quot;label&quot;</span><span class="p">:</span> <span class="s2">&quot;Cuba&quot;</span>
+                        <span class="p">},</span>
+                        <span class="p">{</span>
+                            <span class="nt">&quot;id&quot;</span><span class="p">:</span> <span class="s2">&quot;043.&quot;</span><span class="p">,</span>
+                            <span class="nt">&quot;label&quot;</span><span class="p">:</span> <span class="s2">&quot;Cyprus&quot;</span>
+                        <span class="p">},</span>
+                        <span class="p">{</span>
+                            <span class="nt">&quot;id&quot;</span><span class="p">:</span> <span class="s2">&quot;044.&quot;</span><span class="p">,</span>
+                            <span class="nt">&quot;label&quot;</span><span class="p">:</span> <span class="s2">&quot;Czech Republic&quot;</span>
+                        <span class="p">},</span>
+                        <span class="p">{</span>
+                            <span class="nt">&quot;id&quot;</span><span class="p">:</span> <span class="s2">&quot;045.&quot;</span><span class="p">,</span>
+                            <span class="nt">&quot;label&quot;</span><span class="p">:</span> <span class="s2">&quot;Democratic Republic of Congo&quot;</span>
+                        <span class="p">},</span>
+                        <span class="p">{</span>
+                            <span class="nt">&quot;id&quot;</span><span class="p">:</span> <span class="s2">&quot;046.&quot;</span><span class="p">,</span>
+                            <span class="nt">&quot;label&quot;</span><span class="p">:</span> <span class="s2">&quot;Denmark&quot;</span>
+                        <span class="p">},</span>
+                        <span class="p">{</span>
+                            <span class="nt">&quot;id&quot;</span><span class="p">:</span> <span class="s2">&quot;047.&quot;</span><span class="p">,</span>
+                            <span class="nt">&quot;label&quot;</span><span class="p">:</span> <span class="s2">&quot;Djibouti&quot;</span>
+                        <span class="p">},</span>
+                        <span class="p">{</span>
+                            <span class="nt">&quot;id&quot;</span><span class="p">:</span> <span class="s2">&quot;048.&quot;</span><span class="p">,</span>
+                            <span class="nt">&quot;label&quot;</span><span class="p">:</span> <span class="s2">&quot;Dominica&quot;</span>
+                        <span class="p">},</span>
+                        <span class="p">{</span>
+                            <span class="nt">&quot;id&quot;</span><span class="p">:</span> <span class="s2">&quot;049.&quot;</span><span class="p">,</span>
+                            <span class="nt">&quot;label&quot;</span><span class="p">:</span> <span class="s2">&quot;Dominican Republic&quot;</span>
+                        <span class="p">},</span>
+                        <span class="p">{</span>
+                            <span class="nt">&quot;id&quot;</span><span class="p">:</span> <span class="s2">&quot;050.&quot;</span><span class="p">,</span>
+                            <span class="nt">&quot;label&quot;</span><span class="p">:</span> <span class="s2">&quot;East Timor&quot;</span>
+                        <span class="p">},</span>
+                        <span class="p">{</span>
+                            <span class="nt">&quot;id&quot;</span><span class="p">:</span> <span class="s2">&quot;051.&quot;</span><span class="p">,</span>
+                            <span class="nt">&quot;label&quot;</span><span class="p">:</span> <span class="s2">&quot;Ecuador&quot;</span>
+                        <span class="p">},</span>
+                        <span class="p">{</span>
+                            <span class="nt">&quot;id&quot;</span><span class="p">:</span> <span class="s2">&quot;052.&quot;</span><span class="p">,</span>
+                            <span class="nt">&quot;label&quot;</span><span class="p">:</span> <span class="s2">&quot;Egypt&quot;</span>
+                        <span class="p">},</span>
+                        <span class="p">{</span>
+                            <span class="nt">&quot;id&quot;</span><span class="p">:</span> <span class="s2">&quot;053.&quot;</span><span class="p">,</span>
+                            <span class="nt">&quot;label&quot;</span><span class="p">:</span> <span class="s2">&quot;El Salvador&quot;</span>
+                        <span class="p">},</span>
+                        <span class="p">{</span>
+                            <span class="nt">&quot;id&quot;</span><span class="p">:</span> <span class="s2">&quot;054.&quot;</span><span class="p">,</span>
+                            <span class="nt">&quot;label&quot;</span><span class="p">:</span> <span class="s2">&quot;Equatorial Guinea&quot;</span>
+                        <span class="p">},</span>
+                        <span class="p">{</span>
+                            <span class="nt">&quot;id&quot;</span><span class="p">:</span> <span class="s2">&quot;055.&quot;</span><span class="p">,</span>
+                            <span class="nt">&quot;label&quot;</span><span class="p">:</span> <span class="s2">&quot;Eritrea&quot;</span>
+                        <span class="p">},</span>
+                        <span class="p">{</span>
+                            <span class="nt">&quot;id&quot;</span><span class="p">:</span> <span class="s2">&quot;056.&quot;</span><span class="p">,</span>
+                            <span class="nt">&quot;label&quot;</span><span class="p">:</span> <span class="s2">&quot;Estonia&quot;</span>
+                        <span class="p">},</span>
+                        <span class="p">{</span>
+                            <span class="nt">&quot;id&quot;</span><span class="p">:</span> <span class="s2">&quot;057.&quot;</span><span class="p">,</span>
+                            <span class="nt">&quot;label&quot;</span><span class="p">:</span> <span class="s2">&quot;Ethiopia&quot;</span>
+                        <span class="p">},</span>
+                        <span class="p">{</span>
+                            <span class="nt">&quot;id&quot;</span><span class="p">:</span> <span class="s2">&quot;058.&quot;</span><span class="p">,</span>
+                            <span class="nt">&quot;label&quot;</span><span class="p">:</span> <span class="s2">&quot;Fiji&quot;</span>
+                        <span class="p">},</span>
+                        <span class="p">{</span>
+                            <span class="nt">&quot;id&quot;</span><span class="p">:</span> <span class="s2">&quot;059.&quot;</span><span class="p">,</span>
+                            <span class="nt">&quot;label&quot;</span><span class="p">:</span> <span class="s2">&quot;Finland&quot;</span>
+                        <span class="p">},</span>
+                        <span class="p">{</span>
+                            <span class="nt">&quot;id&quot;</span><span class="p">:</span> <span class="s2">&quot;060.&quot;</span><span class="p">,</span>
+                            <span class="nt">&quot;label&quot;</span><span class="p">:</span> <span class="s2">&quot;France&quot;</span>
+                        <span class="p">},</span>
+                        <span class="p">{</span>
+                            <span class="nt">&quot;id&quot;</span><span class="p">:</span> <span class="s2">&quot;061.&quot;</span><span class="p">,</span>
+                            <span class="nt">&quot;label&quot;</span><span class="p">:</span> <span class="s2">&quot;Gabon&quot;</span>
+                        <span class="p">},</span>
+                        <span class="p">{</span>
+                            <span class="nt">&quot;id&quot;</span><span class="p">:</span> <span class="s2">&quot;062.&quot;</span><span class="p">,</span>
+                            <span class="nt">&quot;label&quot;</span><span class="p">:</span> <span class="s2">&quot;Gambia&quot;</span>
+                        <span class="p">},</span>
+                        <span class="p">{</span>
+                            <span class="nt">&quot;id&quot;</span><span class="p">:</span> <span class="s2">&quot;063.&quot;</span><span class="p">,</span>
+                            <span class="nt">&quot;label&quot;</span><span class="p">:</span> <span class="s2">&quot;Georgia&quot;</span>
+                        <span class="p">},</span>
+                        <span class="p">{</span>
+                            <span class="nt">&quot;id&quot;</span><span class="p">:</span> <span class="s2">&quot;064.&quot;</span><span class="p">,</span>
+                            <span class="nt">&quot;label&quot;</span><span class="p">:</span> <span class="s2">&quot;Germany&quot;</span>
+                        <span class="p">},</span>
+                        <span class="p">{</span>
+                            <span class="nt">&quot;id&quot;</span><span class="p">:</span> <span class="s2">&quot;065.&quot;</span><span class="p">,</span>
+                            <span class="nt">&quot;label&quot;</span><span class="p">:</span> <span class="s2">&quot;Ghana&quot;</span>
+                        <span class="p">},</span>
+                        <span class="p">{</span>
+                            <span class="nt">&quot;id&quot;</span><span class="p">:</span> <span class="s2">&quot;066.&quot;</span><span class="p">,</span>
+                            <span class="nt">&quot;label&quot;</span><span class="p">:</span> <span class="s2">&quot;Greece&quot;</span>
+                        <span class="p">},</span>
+                        <span class="p">{</span>
+                            <span class="nt">&quot;id&quot;</span><span class="p">:</span> <span class="s2">&quot;067.&quot;</span><span class="p">,</span>
+                            <span class="nt">&quot;label&quot;</span><span class="p">:</span> <span class="s2">&quot;Grenada&quot;</span>
+                        <span class="p">},</span>
+                        <span class="p">{</span>
+                            <span class="nt">&quot;id&quot;</span><span class="p">:</span> <span class="s2">&quot;068.&quot;</span><span class="p">,</span>
+                            <span class="nt">&quot;label&quot;</span><span class="p">:</span> <span class="s2">&quot;Guatemala&quot;</span>
+                        <span class="p">},</span>
+                        <span class="p">{</span>
+                            <span class="nt">&quot;id&quot;</span><span class="p">:</span> <span class="s2">&quot;069.&quot;</span><span class="p">,</span>
+                            <span class="nt">&quot;label&quot;</span><span class="p">:</span> <span class="s2">&quot;Guinea&quot;</span>
+                        <span class="p">},</span>
+                        <span class="p">{</span>
+                            <span class="nt">&quot;id&quot;</span><span class="p">:</span> <span class="s2">&quot;070.&quot;</span><span class="p">,</span>
+                            <span class="nt">&quot;label&quot;</span><span class="p">:</span> <span class="s2">&quot;Guinea-Bissau&quot;</span>
+                        <span class="p">},</span>
+                        <span class="p">{</span>
+                            <span class="nt">&quot;id&quot;</span><span class="p">:</span> <span class="s2">&quot;071.&quot;</span><span class="p">,</span>
+                            <span class="nt">&quot;label&quot;</span><span class="p">:</span> <span class="s2">&quot;Guyana&quot;</span>
+                        <span class="p">},</span>
+                        <span class="p">{</span>
+                            <span class="nt">&quot;id&quot;</span><span class="p">:</span> <span class="s2">&quot;072.&quot;</span><span class="p">,</span>
+                            <span class="nt">&quot;label&quot;</span><span class="p">:</span> <span class="s2">&quot;Haiti&quot;</span>
+                        <span class="p">},</span>
+                        <span class="p">{</span>
+                            <span class="nt">&quot;id&quot;</span><span class="p">:</span> <span class="s2">&quot;073.&quot;</span><span class="p">,</span>
+                            <span class="nt">&quot;label&quot;</span><span class="p">:</span> <span class="s2">&quot;Honduras&quot;</span>
+                        <span class="p">},</span>
+                        <span class="p">{</span>
+                            <span class="nt">&quot;id&quot;</span><span class="p">:</span> <span class="s2">&quot;074.&quot;</span><span class="p">,</span>
+                            <span class="nt">&quot;label&quot;</span><span class="p">:</span> <span class="s2">&quot;Hungary&quot;</span>
+                        <span class="p">},</span>
+                        <span class="p">{</span>
+                            <span class="nt">&quot;id&quot;</span><span class="p">:</span> <span class="s2">&quot;075.&quot;</span><span class="p">,</span>
+                            <span class="nt">&quot;label&quot;</span><span class="p">:</span> <span class="s2">&quot;Iceland&quot;</span>
+                        <span class="p">},</span>
+                        <span class="p">{</span>
+                            <span class="nt">&quot;id&quot;</span><span class="p">:</span> <span class="s2">&quot;076.&quot;</span><span class="p">,</span>
+                            <span class="nt">&quot;label&quot;</span><span class="p">:</span> <span class="s2">&quot;India&quot;</span>
+                        <span class="p">},</span>
+                        <span class="p">{</span>
+                            <span class="nt">&quot;id&quot;</span><span class="p">:</span> <span class="s2">&quot;077.&quot;</span><span class="p">,</span>
+                            <span class="nt">&quot;label&quot;</span><span class="p">:</span> <span class="s2">&quot;Indonesia&quot;</span>
+                        <span class="p">},</span>
+                        <span class="p">{</span>
+                            <span class="nt">&quot;id&quot;</span><span class="p">:</span> <span class="s2">&quot;078.&quot;</span><span class="p">,</span>
+                            <span class="nt">&quot;label&quot;</span><span class="p">:</span> <span class="s2">&quot;Iran&quot;</span>
+                        <span class="p">},</span>
+                        <span class="p">{</span>
+                            <span class="nt">&quot;id&quot;</span><span class="p">:</span> <span class="s2">&quot;079.&quot;</span><span class="p">,</span>
+                            <span class="nt">&quot;label&quot;</span><span class="p">:</span> <span class="s2">&quot;Iraq&quot;</span>
+                        <span class="p">},</span>
+                        <span class="p">{</span>
+                            <span class="nt">&quot;id&quot;</span><span class="p">:</span> <span class="s2">&quot;080.&quot;</span><span class="p">,</span>
+                            <span class="nt">&quot;label&quot;</span><span class="p">:</span> <span class="s2">&quot;Ireland&quot;</span>
+                        <span class="p">},</span>
+                        <span class="p">{</span>
+                            <span class="nt">&quot;id&quot;</span><span class="p">:</span> <span class="s2">&quot;081.&quot;</span><span class="p">,</span>
+                            <span class="nt">&quot;label&quot;</span><span class="p">:</span> <span class="s2">&quot;Israel&quot;</span>
+                        <span class="p">},</span>
+                        <span class="p">{</span>
+                            <span class="nt">&quot;id&quot;</span><span class="p">:</span> <span class="s2">&quot;082.&quot;</span><span class="p">,</span>
+                            <span class="nt">&quot;label&quot;</span><span class="p">:</span> <span class="s2">&quot;Italy&quot;</span>
+                        <span class="p">},</span>
+                        <span class="p">{</span>
+                            <span class="nt">&quot;id&quot;</span><span class="p">:</span> <span class="s2">&quot;083.&quot;</span><span class="p">,</span>
+                            <span class="nt">&quot;label&quot;</span><span class="p">:</span> <span class="s2">&quot;Jamaica&quot;</span>
+                        <span class="p">},</span>
+                        <span class="p">{</span>
+                            <span class="nt">&quot;id&quot;</span><span class="p">:</span> <span class="s2">&quot;084.&quot;</span><span class="p">,</span>
+                            <span class="nt">&quot;label&quot;</span><span class="p">:</span> <span class="s2">&quot;Japan&quot;</span>
+                        <span class="p">},</span>
+                        <span class="p">{</span>
+                            <span class="nt">&quot;id&quot;</span><span class="p">:</span> <span class="s2">&quot;085.&quot;</span><span class="p">,</span>
+                            <span class="nt">&quot;label&quot;</span><span class="p">:</span> <span class="s2">&quot;Jordan&quot;</span>
+                        <span class="p">},</span>
+                        <span class="p">{</span>
+                            <span class="nt">&quot;id&quot;</span><span class="p">:</span> <span class="s2">&quot;086.&quot;</span><span class="p">,</span>
+                            <span class="nt">&quot;label&quot;</span><span class="p">:</span> <span class="s2">&quot;Kazakhstan&quot;</span>
+                        <span class="p">},</span>
+                        <span class="p">{</span>
+                            <span class="nt">&quot;id&quot;</span><span class="p">:</span> <span class="s2">&quot;087.&quot;</span><span class="p">,</span>
+                            <span class="nt">&quot;label&quot;</span><span class="p">:</span> <span class="s2">&quot;Kenya&quot;</span>
+                        <span class="p">},</span>
+                        <span class="p">{</span>
+                            <span class="nt">&quot;id&quot;</span><span class="p">:</span> <span class="s2">&quot;088.&quot;</span><span class="p">,</span>
+                            <span class="nt">&quot;label&quot;</span><span class="p">:</span> <span class="s2">&quot;Kiribati&quot;</span>
+                        <span class="p">},</span>
+                        <span class="p">{</span>
+                            <span class="nt">&quot;id&quot;</span><span class="p">:</span> <span class="s2">&quot;089.&quot;</span><span class="p">,</span>
+                            <span class="nt">&quot;label&quot;</span><span class="p">:</span> <span class="s2">&quot;Kosovo&quot;</span>
+                        <span class="p">},</span>
+                        <span class="p">{</span>
+                            <span class="nt">&quot;id&quot;</span><span class="p">:</span> <span class="s2">&quot;090.&quot;</span><span class="p">,</span>
+                            <span class="nt">&quot;label&quot;</span><span class="p">:</span> <span class="s2">&quot;Kuwait&quot;</span>
+                        <span class="p">},</span>
+                        <span class="p">{</span>
+                            <span class="nt">&quot;id&quot;</span><span class="p">:</span> <span class="s2">&quot;091.&quot;</span><span class="p">,</span>
+                            <span class="nt">&quot;label&quot;</span><span class="p">:</span> <span class="s2">&quot;Kyrgyzstan&quot;</span>
+                        <span class="p">},</span>
+                        <span class="p">{</span>
+                            <span class="nt">&quot;id&quot;</span><span class="p">:</span> <span class="s2">&quot;092.&quot;</span><span class="p">,</span>
+                            <span class="nt">&quot;label&quot;</span><span class="p">:</span> <span class="s2">&quot;Laos&quot;</span>
+                        <span class="p">},</span>
+                        <span class="p">{</span>
+                            <span class="nt">&quot;id&quot;</span><span class="p">:</span> <span class="s2">&quot;093.&quot;</span><span class="p">,</span>
+                            <span class="nt">&quot;label&quot;</span><span class="p">:</span> <span class="s2">&quot;Latvia&quot;</span>
+                        <span class="p">},</span>
+                        <span class="p">{</span>
+                            <span class="nt">&quot;id&quot;</span><span class="p">:</span> <span class="s2">&quot;094.&quot;</span><span class="p">,</span>
+                            <span class="nt">&quot;label&quot;</span><span class="p">:</span> <span class="s2">&quot;Lebanon&quot;</span>
+                        <span class="p">},</span>
+                        <span class="p">{</span>
+                            <span class="nt">&quot;id&quot;</span><span class="p">:</span> <span class="s2">&quot;095.&quot;</span><span class="p">,</span>
+                            <span class="nt">&quot;label&quot;</span><span class="p">:</span> <span class="s2">&quot;Lesotho&quot;</span>
+                        <span class="p">},</span>
+                        <span class="p">{</span>
+                            <span class="nt">&quot;id&quot;</span><span class="p">:</span> <span class="s2">&quot;096.&quot;</span><span class="p">,</span>
+                            <span class="nt">&quot;label&quot;</span><span class="p">:</span> <span class="s2">&quot;Liberia&quot;</span>
+                        <span class="p">},</span>
+                        <span class="p">{</span>
+                            <span class="nt">&quot;id&quot;</span><span class="p">:</span> <span class="s2">&quot;097.&quot;</span><span class="p">,</span>
+                            <span class="nt">&quot;label&quot;</span><span class="p">:</span> <span class="s2">&quot;Libya&quot;</span>
+                        <span class="p">},</span>
+                        <span class="p">{</span>
+                            <span class="nt">&quot;id&quot;</span><span class="p">:</span> <span class="s2">&quot;098.&quot;</span><span class="p">,</span>
+                            <span class="nt">&quot;label&quot;</span><span class="p">:</span> <span class="s2">&quot;Liechtenstein&quot;</span>
+                        <span class="p">},</span>
+                        <span class="p">{</span>
+                            <span class="nt">&quot;id&quot;</span><span class="p">:</span> <span class="s2">&quot;099.&quot;</span><span class="p">,</span>
+                            <span class="nt">&quot;label&quot;</span><span class="p">:</span> <span class="s2">&quot;Lithuania&quot;</span>
+                        <span class="p">},</span>
+                        <span class="p">{</span>
+                            <span class="nt">&quot;id&quot;</span><span class="p">:</span> <span class="s2">&quot;100.&quot;</span><span class="p">,</span>
+                            <span class="nt">&quot;label&quot;</span><span class="p">:</span> <span class="s2">&quot;Luxemburg&quot;</span>
+                        <span class="p">},</span>
+                        <span class="p">{</span>
+                            <span class="nt">&quot;id&quot;</span><span class="p">:</span> <span class="s2">&quot;101.&quot;</span><span class="p">,</span>
+                            <span class="nt">&quot;label&quot;</span><span class="p">:</span> <span class="s2">&quot;Macedonia&quot;</span>
+                        <span class="p">},</span>
+                        <span class="p">{</span>
+                            <span class="nt">&quot;id&quot;</span><span class="p">:</span> <span class="s2">&quot;102.&quot;</span><span class="p">,</span>
+                            <span class="nt">&quot;label&quot;</span><span class="p">:</span> <span class="s2">&quot;Madagascar&quot;</span>
+                        <span class="p">},</span>
+                        <span class="p">{</span>
+                            <span class="nt">&quot;id&quot;</span><span class="p">:</span> <span class="s2">&quot;103.&quot;</span><span class="p">,</span>
+                            <span class="nt">&quot;label&quot;</span><span class="p">:</span> <span class="s2">&quot;Malawi&quot;</span>
+                        <span class="p">},</span>
+                        <span class="p">{</span>
+                            <span class="nt">&quot;id&quot;</span><span class="p">:</span> <span class="s2">&quot;104.&quot;</span><span class="p">,</span>
+                            <span class="nt">&quot;label&quot;</span><span class="p">:</span> <span class="s2">&quot;Malaysia&quot;</span>
+                        <span class="p">},</span>
+                        <span class="p">{</span>
+                            <span class="nt">&quot;id&quot;</span><span class="p">:</span> <span class="s2">&quot;105.&quot;</span><span class="p">,</span>
+                            <span class="nt">&quot;label&quot;</span><span class="p">:</span> <span class="s2">&quot;Maldives&quot;</span>
+                        <span class="p">},</span>
+                        <span class="p">{</span>
+                            <span class="nt">&quot;id&quot;</span><span class="p">:</span> <span class="s2">&quot;106.&quot;</span><span class="p">,</span>
+                            <span class="nt">&quot;label&quot;</span><span class="p">:</span> <span class="s2">&quot;Mali&quot;</span>
+                        <span class="p">},</span>
+                        <span class="p">{</span>
+                            <span class="nt">&quot;id&quot;</span><span class="p">:</span> <span class="s2">&quot;107.&quot;</span><span class="p">,</span>
+                            <span class="nt">&quot;label&quot;</span><span class="p">:</span> <span class="s2">&quot;Malta&quot;</span>
+                        <span class="p">},</span>
+                        <span class="p">{</span>
+                            <span class="nt">&quot;id&quot;</span><span class="p">:</span> <span class="s2">&quot;108.&quot;</span><span class="p">,</span>
+                            <span class="nt">&quot;label&quot;</span><span class="p">:</span> <span class="s2">&quot;Marshall Islands&quot;</span>
+                        <span class="p">},</span>
+                        <span class="p">{</span>
+                            <span class="nt">&quot;id&quot;</span><span class="p">:</span> <span class="s2">&quot;109.&quot;</span><span class="p">,</span>
+                            <span class="nt">&quot;label&quot;</span><span class="p">:</span> <span class="s2">&quot;Mauritania&quot;</span>
+                        <span class="p">},</span>
+                        <span class="p">{</span>
+                            <span class="nt">&quot;id&quot;</span><span class="p">:</span> <span class="s2">&quot;110.&quot;</span><span class="p">,</span>
+                            <span class="nt">&quot;label&quot;</span><span class="p">:</span> <span class="s2">&quot;Mauritius&quot;</span>
+                        <span class="p">},</span>
+                        <span class="p">{</span>
+                            <span class="nt">&quot;id&quot;</span><span class="p">:</span> <span class="s2">&quot;111.&quot;</span><span class="p">,</span>
+                            <span class="nt">&quot;label&quot;</span><span class="p">:</span> <span class="s2">&quot;Mexico&quot;</span>
+                        <span class="p">},</span>
+                        <span class="p">{</span>
+                            <span class="nt">&quot;id&quot;</span><span class="p">:</span> <span class="s2">&quot;112.&quot;</span><span class="p">,</span>
+                            <span class="nt">&quot;label&quot;</span><span class="p">:</span> <span class="s2">&quot;Micronesia&quot;</span>
+                        <span class="p">},</span>
+                        <span class="p">{</span>
+                            <span class="nt">&quot;id&quot;</span><span class="p">:</span> <span class="s2">&quot;113.&quot;</span><span class="p">,</span>
+                            <span class="nt">&quot;label&quot;</span><span class="p">:</span> <span class="s2">&quot;Moldova&quot;</span>
+                        <span class="p">},</span>
+                        <span class="p">{</span>
+                            <span class="nt">&quot;id&quot;</span><span class="p">:</span> <span class="s2">&quot;114.&quot;</span><span class="p">,</span>
+                            <span class="nt">&quot;label&quot;</span><span class="p">:</span> <span class="s2">&quot;Monaco&quot;</span>
+                        <span class="p">},</span>
+                        <span class="p">{</span>
+                            <span class="nt">&quot;id&quot;</span><span class="p">:</span> <span class="s2">&quot;115.&quot;</span><span class="p">,</span>
+                            <span class="nt">&quot;label&quot;</span><span class="p">:</span> <span class="s2">&quot;Mongolia&quot;</span>
+                        <span class="p">},</span>
+                        <span class="p">{</span>
+                            <span class="nt">&quot;id&quot;</span><span class="p">:</span> <span class="s2">&quot;116.&quot;</span><span class="p">,</span>
+                            <span class="nt">&quot;label&quot;</span><span class="p">:</span> <span class="s2">&quot;Montenegro&quot;</span>
+                        <span class="p">},</span>
+                        <span class="p">{</span>
+                            <span class="nt">&quot;id&quot;</span><span class="p">:</span> <span class="s2">&quot;117.&quot;</span><span class="p">,</span>
+                            <span class="nt">&quot;label&quot;</span><span class="p">:</span> <span class="s2">&quot;Morocco&quot;</span>
+                        <span class="p">},</span>
+                        <span class="p">{</span>
+                            <span class="nt">&quot;id&quot;</span><span class="p">:</span> <span class="s2">&quot;118.&quot;</span><span class="p">,</span>
+                            <span class="nt">&quot;label&quot;</span><span class="p">:</span> <span class="s2">&quot;Mozambique&quot;</span>
+                        <span class="p">},</span>
+                        <span class="p">{</span>
+                            <span class="nt">&quot;id&quot;</span><span class="p">:</span> <span class="s2">&quot;119.&quot;</span><span class="p">,</span>
+                            <span class="nt">&quot;label&quot;</span><span class="p">:</span> <span class="s2">&quot;Myanmar&quot;</span>
+                        <span class="p">},</span>
+                        <span class="p">{</span>
+                            <span class="nt">&quot;id&quot;</span><span class="p">:</span> <span class="s2">&quot;120.&quot;</span><span class="p">,</span>
+                            <span class="nt">&quot;label&quot;</span><span class="p">:</span> <span class="s2">&quot;Namibia&quot;</span>
+                        <span class="p">},</span>
+                        <span class="p">{</span>
+                            <span class="nt">&quot;id&quot;</span><span class="p">:</span> <span class="s2">&quot;121.&quot;</span><span class="p">,</span>
+                            <span class="nt">&quot;label&quot;</span><span class="p">:</span> <span class="s2">&quot;Nauru&quot;</span>
+                        <span class="p">},</span>
+                        <span class="p">{</span>
+                            <span class="nt">&quot;id&quot;</span><span class="p">:</span> <span class="s2">&quot;122.&quot;</span><span class="p">,</span>
+                            <span class="nt">&quot;label&quot;</span><span class="p">:</span> <span class="s2">&quot;Nepal&quot;</span>
+                        <span class="p">},</span>
+                        <span class="p">{</span>
+                            <span class="nt">&quot;id&quot;</span><span class="p">:</span> <span class="s2">&quot;123.&quot;</span><span class="p">,</span>
+                            <span class="nt">&quot;label&quot;</span><span class="p">:</span> <span class="s2">&quot;Netherlands&quot;</span>
+                        <span class="p">},</span>
+                        <span class="p">{</span>
+                            <span class="nt">&quot;id&quot;</span><span class="p">:</span> <span class="s2">&quot;124.&quot;</span><span class="p">,</span>
+                            <span class="nt">&quot;label&quot;</span><span class="p">:</span> <span class="s2">&quot;New Zealand&quot;</span>
+                        <span class="p">},</span>
+                        <span class="p">{</span>
+                            <span class="nt">&quot;id&quot;</span><span class="p">:</span> <span class="s2">&quot;125.&quot;</span><span class="p">,</span>
+                            <span class="nt">&quot;label&quot;</span><span class="p">:</span> <span class="s2">&quot;Nicaragua&quot;</span>
+                        <span class="p">},</span>
+                        <span class="p">{</span>
+                            <span class="nt">&quot;id&quot;</span><span class="p">:</span> <span class="s2">&quot;126.&quot;</span><span class="p">,</span>
+                            <span class="nt">&quot;label&quot;</span><span class="p">:</span> <span class="s2">&quot;Niger&quot;</span>
+                        <span class="p">},</span>
+                        <span class="p">{</span>
+                            <span class="nt">&quot;id&quot;</span><span class="p">:</span> <span class="s2">&quot;127.&quot;</span><span class="p">,</span>
+                            <span class="nt">&quot;label&quot;</span><span class="p">:</span> <span class="s2">&quot;Nigeria&quot;</span>
+                        <span class="p">},</span>
+                        <span class="p">{</span>
+                            <span class="nt">&quot;id&quot;</span><span class="p">:</span> <span class="s2">&quot;128.&quot;</span><span class="p">,</span>
+                            <span class="nt">&quot;label&quot;</span><span class="p">:</span> <span class="s2">&quot;North Korea&quot;</span>
+                        <span class="p">},</span>
+                        <span class="p">{</span>
+                            <span class="nt">&quot;id&quot;</span><span class="p">:</span> <span class="s2">&quot;129.&quot;</span><span class="p">,</span>
+                            <span class="nt">&quot;label&quot;</span><span class="p">:</span> <span class="s2">&quot;Norway&quot;</span>
+                        <span class="p">},</span>
+                        <span class="p">{</span>
+                            <span class="nt">&quot;id&quot;</span><span class="p">:</span> <span class="s2">&quot;130.&quot;</span><span class="p">,</span>
+                            <span class="nt">&quot;label&quot;</span><span class="p">:</span> <span class="s2">&quot;Oman&quot;</span>
+                        <span class="p">},</span>
+                        <span class="p">{</span>
+                            <span class="nt">&quot;id&quot;</span><span class="p">:</span> <span class="s2">&quot;131.&quot;</span><span class="p">,</span>
+                            <span class="nt">&quot;label&quot;</span><span class="p">:</span> <span class="s2">&quot;Pakistan&quot;</span>
+                        <span class="p">},</span>
+                        <span class="p">{</span>
+                            <span class="nt">&quot;id&quot;</span><span class="p">:</span> <span class="s2">&quot;132.&quot;</span><span class="p">,</span>
+                            <span class="nt">&quot;label&quot;</span><span class="p">:</span> <span class="s2">&quot;Palau&quot;</span>
+                        <span class="p">},</span>
+                        <span class="p">{</span>
+                            <span class="nt">&quot;id&quot;</span><span class="p">:</span> <span class="s2">&quot;133.&quot;</span><span class="p">,</span>
+                            <span class="nt">&quot;label&quot;</span><span class="p">:</span> <span class="s2">&quot;Panama&quot;</span>
+                        <span class="p">},</span>
+                        <span class="p">{</span>
+                            <span class="nt">&quot;id&quot;</span><span class="p">:</span> <span class="s2">&quot;134.&quot;</span><span class="p">,</span>
+                            <span class="nt">&quot;label&quot;</span><span class="p">:</span> <span class="s2">&quot;Papua New Guinea&quot;</span>
+                        <span class="p">},</span>
+                        <span class="p">{</span>
+                            <span class="nt">&quot;id&quot;</span><span class="p">:</span> <span class="s2">&quot;135.&quot;</span><span class="p">,</span>
+                            <span class="nt">&quot;label&quot;</span><span class="p">:</span> <span class="s2">&quot;Paraguay&quot;</span>
+                        <span class="p">},</span>
+                        <span class="p">{</span>
+                            <span class="nt">&quot;id&quot;</span><span class="p">:</span> <span class="s2">&quot;136.&quot;</span><span class="p">,</span>
+                            <span class="nt">&quot;label&quot;</span><span class="p">:</span> <span class="s2">&quot;Peru&quot;</span>
+                        <span class="p">},</span>
+                        <span class="p">{</span>
+                            <span class="nt">&quot;id&quot;</span><span class="p">:</span> <span class="s2">&quot;137.&quot;</span><span class="p">,</span>
+                            <span class="nt">&quot;label&quot;</span><span class="p">:</span> <span class="s2">&quot;Philippines&quot;</span>
+                        <span class="p">},</span>
+                        <span class="p">{</span>
+                            <span class="nt">&quot;id&quot;</span><span class="p">:</span> <span class="s2">&quot;138.&quot;</span><span class="p">,</span>
+                            <span class="nt">&quot;label&quot;</span><span class="p">:</span> <span class="s2">&quot;Poland&quot;</span>
+                        <span class="p">},</span>
+                        <span class="p">{</span>
+                            <span class="nt">&quot;id&quot;</span><span class="p">:</span> <span class="s2">&quot;139.&quot;</span><span class="p">,</span>
+                            <span class="nt">&quot;label&quot;</span><span class="p">:</span> <span class="s2">&quot;Portugal&quot;</span>
+                        <span class="p">},</span>
+                        <span class="p">{</span>
+                            <span class="nt">&quot;id&quot;</span><span class="p">:</span> <span class="s2">&quot;140.&quot;</span><span class="p">,</span>
+                            <span class="nt">&quot;label&quot;</span><span class="p">:</span> <span class="s2">&quot;Qatar&quot;</span>
+                        <span class="p">},</span>
+                        <span class="p">{</span>
+                            <span class="nt">&quot;id&quot;</span><span class="p">:</span> <span class="s2">&quot;141.&quot;</span><span class="p">,</span>
+                            <span class="nt">&quot;label&quot;</span><span class="p">:</span> <span class="s2">&quot;Republic of Congo&quot;</span>
+                        <span class="p">},</span>
+                        <span class="p">{</span>
+                            <span class="nt">&quot;id&quot;</span><span class="p">:</span> <span class="s2">&quot;142.&quot;</span><span class="p">,</span>
+                            <span class="nt">&quot;label&quot;</span><span class="p">:</span> <span class="s2">&quot;Romania&quot;</span>
+                        <span class="p">},</span>
+                        <span class="p">{</span>
+                            <span class="nt">&quot;id&quot;</span><span class="p">:</span> <span class="s2">&quot;143.&quot;</span><span class="p">,</span>
+                            <span class="nt">&quot;label&quot;</span><span class="p">:</span> <span class="s2">&quot;Russia&quot;</span>
+                        <span class="p">},</span>
+                        <span class="p">{</span>
+                            <span class="nt">&quot;id&quot;</span><span class="p">:</span> <span class="s2">&quot;144.&quot;</span><span class="p">,</span>
+                            <span class="nt">&quot;label&quot;</span><span class="p">:</span> <span class="s2">&quot;Rwanda&quot;</span>
+                        <span class="p">},</span>
+                        <span class="p">{</span>
+                            <span class="nt">&quot;id&quot;</span><span class="p">:</span> <span class="s2">&quot;145.&quot;</span><span class="p">,</span>
+                            <span class="nt">&quot;label&quot;</span><span class="p">:</span> <span class="s2">&quot;Saint Kitts and Nevis&quot;</span>
+                        <span class="p">},</span>
+                        <span class="p">{</span>
+                            <span class="nt">&quot;id&quot;</span><span class="p">:</span> <span class="s2">&quot;146.&quot;</span><span class="p">,</span>
+                            <span class="nt">&quot;label&quot;</span><span class="p">:</span> <span class="s2">&quot;Saint Lucia&quot;</span>
+                        <span class="p">},</span>
+                        <span class="p">{</span>
+                            <span class="nt">&quot;id&quot;</span><span class="p">:</span> <span class="s2">&quot;147.&quot;</span><span class="p">,</span>
+                            <span class="nt">&quot;label&quot;</span><span class="p">:</span> <span class="s2">&quot;Saint Vincent and the Grenadines&quot;</span>
+                        <span class="p">},</span>
+                        <span class="p">{</span>
+                            <span class="nt">&quot;id&quot;</span><span class="p">:</span> <span class="s2">&quot;148.&quot;</span><span class="p">,</span>
+                            <span class="nt">&quot;label&quot;</span><span class="p">:</span> <span class="s2">&quot;Samoa&quot;</span>
+                        <span class="p">},</span>
+                        <span class="p">{</span>
+                            <span class="nt">&quot;id&quot;</span><span class="p">:</span> <span class="s2">&quot;149.&quot;</span><span class="p">,</span>
+                            <span class="nt">&quot;label&quot;</span><span class="p">:</span> <span class="s2">&quot;San Marino&quot;</span>
+                        <span class="p">},</span>
+                        <span class="p">{</span>
+                            <span class="nt">&quot;id&quot;</span><span class="p">:</span> <span class="s2">&quot;150.&quot;</span><span class="p">,</span>
+                            <span class="nt">&quot;label&quot;</span><span class="p">:</span> <span class="s2">&quot;São Tomé and Príncipe&quot;</span>
+                        <span class="p">},</span>
+                        <span class="p">{</span>
+                            <span class="nt">&quot;id&quot;</span><span class="p">:</span> <span class="s2">&quot;151.&quot;</span><span class="p">,</span>
+                            <span class="nt">&quot;label&quot;</span><span class="p">:</span> <span class="s2">&quot;Saudi Arabia&quot;</span>
+                        <span class="p">},</span>
+                        <span class="p">{</span>
+                            <span class="nt">&quot;id&quot;</span><span class="p">:</span> <span class="s2">&quot;152.&quot;</span><span class="p">,</span>
+                            <span class="nt">&quot;label&quot;</span><span class="p">:</span> <span class="s2">&quot;Senegal&quot;</span>
+                        <span class="p">},</span>
+                        <span class="p">{</span>
+                            <span class="nt">&quot;id&quot;</span><span class="p">:</span> <span class="s2">&quot;153.&quot;</span><span class="p">,</span>
+                            <span class="nt">&quot;label&quot;</span><span class="p">:</span> <span class="s2">&quot;Serbia&quot;</span>
+                        <span class="p">},</span>
+                        <span class="p">{</span>
+                            <span class="nt">&quot;id&quot;</span><span class="p">:</span> <span class="s2">&quot;154.&quot;</span><span class="p">,</span>
+                            <span class="nt">&quot;label&quot;</span><span class="p">:</span> <span class="s2">&quot;Seychelles&quot;</span>
+                        <span class="p">},</span>
+                        <span class="p">{</span>
+                            <span class="nt">&quot;id&quot;</span><span class="p">:</span> <span class="s2">&quot;155.&quot;</span><span class="p">,</span>
+                            <span class="nt">&quot;label&quot;</span><span class="p">:</span> <span class="s2">&quot;Sierra Leone&quot;</span>
+                        <span class="p">},</span>
+                        <span class="p">{</span>
+                            <span class="nt">&quot;id&quot;</span><span class="p">:</span> <span class="s2">&quot;156.&quot;</span><span class="p">,</span>
+                            <span class="nt">&quot;label&quot;</span><span class="p">:</span> <span class="s2">&quot;Singapore&quot;</span>
+                        <span class="p">},</span>
+                        <span class="p">{</span>
+                            <span class="nt">&quot;id&quot;</span><span class="p">:</span> <span class="s2">&quot;157.&quot;</span><span class="p">,</span>
+                            <span class="nt">&quot;label&quot;</span><span class="p">:</span> <span class="s2">&quot;Slovakia&quot;</span>
+                        <span class="p">},</span>
+                        <span class="p">{</span>
+                            <span class="nt">&quot;id&quot;</span><span class="p">:</span> <span class="s2">&quot;158.&quot;</span><span class="p">,</span>
+                            <span class="nt">&quot;label&quot;</span><span class="p">:</span> <span class="s2">&quot;Slovenia&quot;</span>
+                        <span class="p">},</span>
+                        <span class="p">{</span>
+                            <span class="nt">&quot;id&quot;</span><span class="p">:</span> <span class="s2">&quot;159.&quot;</span><span class="p">,</span>
+                            <span class="nt">&quot;label&quot;</span><span class="p">:</span> <span class="s2">&quot;Solomon Islands&quot;</span>
+                        <span class="p">},</span>
+                        <span class="p">{</span>
+                            <span class="nt">&quot;id&quot;</span><span class="p">:</span> <span class="s2">&quot;160.&quot;</span><span class="p">,</span>
+                            <span class="nt">&quot;label&quot;</span><span class="p">:</span> <span class="s2">&quot;Somalia&quot;</span>
+                        <span class="p">},</span>
+                        <span class="p">{</span>
+                            <span class="nt">&quot;id&quot;</span><span class="p">:</span> <span class="s2">&quot;161.&quot;</span><span class="p">,</span>
+                            <span class="nt">&quot;label&quot;</span><span class="p">:</span> <span class="s2">&quot;South Africa&quot;</span>
+                        <span class="p">},</span>
+                        <span class="p">{</span>
+                            <span class="nt">&quot;id&quot;</span><span class="p">:</span> <span class="s2">&quot;162.&quot;</span><span class="p">,</span>
+                            <span class="nt">&quot;label&quot;</span><span class="p">:</span> <span class="s2">&quot;South Korea&quot;</span>
+                        <span class="p">},</span>
+                        <span class="p">{</span>
+                            <span class="nt">&quot;id&quot;</span><span class="p">:</span> <span class="s2">&quot;163.&quot;</span><span class="p">,</span>
+                            <span class="nt">&quot;label&quot;</span><span class="p">:</span> <span class="s2">&quot;Spain&quot;</span>
+                        <span class="p">},</span>
+                        <span class="p">{</span>
+                            <span class="nt">&quot;id&quot;</span><span class="p">:</span> <span class="s2">&quot;164.&quot;</span><span class="p">,</span>
+                            <span class="nt">&quot;label&quot;</span><span class="p">:</span> <span class="s2">&quot;Sri Lanka&quot;</span>
+                        <span class="p">},</span>
+                        <span class="p">{</span>
+                            <span class="nt">&quot;id&quot;</span><span class="p">:</span> <span class="s2">&quot;165.&quot;</span><span class="p">,</span>
+                            <span class="nt">&quot;label&quot;</span><span class="p">:</span> <span class="s2">&quot;Sudan&quot;</span>
+                        <span class="p">},</span>
+                        <span class="p">{</span>
+                            <span class="nt">&quot;id&quot;</span><span class="p">:</span> <span class="s2">&quot;166.&quot;</span><span class="p">,</span>
+                            <span class="nt">&quot;label&quot;</span><span class="p">:</span> <span class="s2">&quot;Suriname&quot;</span>
+                        <span class="p">},</span>
+                        <span class="p">{</span>
+                            <span class="nt">&quot;id&quot;</span><span class="p">:</span> <span class="s2">&quot;167.&quot;</span><span class="p">,</span>
+                            <span class="nt">&quot;label&quot;</span><span class="p">:</span> <span class="s2">&quot;Swaziland&quot;</span>
+                        <span class="p">},</span>
+                        <span class="p">{</span>
+                            <span class="nt">&quot;id&quot;</span><span class="p">:</span> <span class="s2">&quot;168.&quot;</span><span class="p">,</span>
+                            <span class="nt">&quot;label&quot;</span><span class="p">:</span> <span class="s2">&quot;Sweden&quot;</span>
+                        <span class="p">},</span>
+                        <span class="p">{</span>
+                            <span class="nt">&quot;id&quot;</span><span class="p">:</span> <span class="s2">&quot;169.&quot;</span><span class="p">,</span>
+                            <span class="nt">&quot;label&quot;</span><span class="p">:</span> <span class="s2">&quot;Switzerland&quot;</span>
+                        <span class="p">},</span>
+                        <span class="p">{</span>
+                            <span class="nt">&quot;id&quot;</span><span class="p">:</span> <span class="s2">&quot;170.&quot;</span><span class="p">,</span>
+                            <span class="nt">&quot;label&quot;</span><span class="p">:</span> <span class="s2">&quot;Syria&quot;</span>
+                        <span class="p">},</span>
+                        <span class="p">{</span>
+                            <span class="nt">&quot;id&quot;</span><span class="p">:</span> <span class="s2">&quot;171.&quot;</span><span class="p">,</span>
+                            <span class="nt">&quot;label&quot;</span><span class="p">:</span> <span class="s2">&quot;Tajikistan&quot;</span>
+                        <span class="p">},</span>
+                        <span class="p">{</span>
+                            <span class="nt">&quot;id&quot;</span><span class="p">:</span> <span class="s2">&quot;172.&quot;</span><span class="p">,</span>
+                            <span class="nt">&quot;label&quot;</span><span class="p">:</span> <span class="s2">&quot;Tanzania&quot;</span>
+                        <span class="p">},</span>
+                        <span class="p">{</span>
+                            <span class="nt">&quot;id&quot;</span><span class="p">:</span> <span class="s2">&quot;173.&quot;</span><span class="p">,</span>
+                            <span class="nt">&quot;label&quot;</span><span class="p">:</span> <span class="s2">&quot;Thailand&quot;</span>
+                        <span class="p">},</span>
+                        <span class="p">{</span>
+                            <span class="nt">&quot;id&quot;</span><span class="p">:</span> <span class="s2">&quot;174.&quot;</span><span class="p">,</span>
+                            <span class="nt">&quot;label&quot;</span><span class="p">:</span> <span class="s2">&quot;Togo&quot;</span>
+                        <span class="p">},</span>
+                        <span class="p">{</span>
+                            <span class="nt">&quot;id&quot;</span><span class="p">:</span> <span class="s2">&quot;175.&quot;</span><span class="p">,</span>
+                            <span class="nt">&quot;label&quot;</span><span class="p">:</span> <span class="s2">&quot;Tonga&quot;</span>
+                        <span class="p">},</span>
+                        <span class="p">{</span>
+                            <span class="nt">&quot;id&quot;</span><span class="p">:</span> <span class="s2">&quot;176.&quot;</span><span class="p">,</span>
+                            <span class="nt">&quot;label&quot;</span><span class="p">:</span> <span class="s2">&quot;Trinidad and Tobago&quot;</span>
+                        <span class="p">},</span>
+                        <span class="p">{</span>
+                            <span class="nt">&quot;id&quot;</span><span class="p">:</span> <span class="s2">&quot;177.&quot;</span><span class="p">,</span>
+                            <span class="nt">&quot;label&quot;</span><span class="p">:</span> <span class="s2">&quot;Tunisia&quot;</span>
+                        <span class="p">},</span>
+                        <span class="p">{</span>
+                            <span class="nt">&quot;id&quot;</span><span class="p">:</span> <span class="s2">&quot;178.&quot;</span><span class="p">,</span>
+                            <span class="nt">&quot;label&quot;</span><span class="p">:</span> <span class="s2">&quot;Turkey&quot;</span>
+                        <span class="p">},</span>
+                        <span class="p">{</span>
+                            <span class="nt">&quot;id&quot;</span><span class="p">:</span> <span class="s2">&quot;179.&quot;</span><span class="p">,</span>
+                            <span class="nt">&quot;label&quot;</span><span class="p">:</span> <span class="s2">&quot;Turkmenistan&quot;</span>
+                        <span class="p">},</span>
+                        <span class="p">{</span>
+                            <span class="nt">&quot;id&quot;</span><span class="p">:</span> <span class="s2">&quot;180.&quot;</span><span class="p">,</span>
+                            <span class="nt">&quot;label&quot;</span><span class="p">:</span> <span class="s2">&quot;Tuvalu&quot;</span>
+                        <span class="p">},</span>
+                        <span class="p">{</span>
+                            <span class="nt">&quot;id&quot;</span><span class="p">:</span> <span class="s2">&quot;181.&quot;</span><span class="p">,</span>
+                            <span class="nt">&quot;label&quot;</span><span class="p">:</span> <span class="s2">&quot;Uganda&quot;</span>
+                        <span class="p">},</span>
+                        <span class="p">{</span>
+                            <span class="nt">&quot;id&quot;</span><span class="p">:</span> <span class="s2">&quot;182.&quot;</span><span class="p">,</span>
+                            <span class="nt">&quot;label&quot;</span><span class="p">:</span> <span class="s2">&quot;Ukraine&quot;</span>
+                        <span class="p">},</span>
+                        <span class="p">{</span>
+                            <span class="nt">&quot;id&quot;</span><span class="p">:</span> <span class="s2">&quot;183.&quot;</span><span class="p">,</span>
+                            <span class="nt">&quot;label&quot;</span><span class="p">:</span> <span class="s2">&quot;United Arab Emirates&quot;</span>
+                        <span class="p">},</span>
+                        <span class="p">{</span>
+                            <span class="nt">&quot;id&quot;</span><span class="p">:</span> <span class="s2">&quot;184.&quot;</span><span class="p">,</span>
+                            <span class="nt">&quot;label&quot;</span><span class="p">:</span> <span class="s2">&quot;United Kingdom&quot;</span><span class="p">,</span>
+                            <span class="nt">&quot;categories&quot;</span><span class="p">:</span> <span class="p">[</span>
+                                <span class="p">{</span>
+                                    <span class="nt">&quot;id&quot;</span><span class="p">:</span> <span class="s2">&quot;18401.&quot;</span><span class="p">,</span>
+                                    <span class="nt">&quot;label&quot;</span><span class="p">:</span> <span class="s2">&quot;England&quot;</span>
+                                <span class="p">},</span>
+                                <span class="p">{</span>
+                                    <span class="nt">&quot;id&quot;</span><span class="p">:</span> <span class="s2">&quot;18402.&quot;</span><span class="p">,</span>
+                                    <span class="nt">&quot;label&quot;</span><span class="p">:</span> <span class="s2">&quot;Northern Ireland&quot;</span>
+                                <span class="p">},</span>
+                                <span class="p">{</span>
+                                    <span class="nt">&quot;id&quot;</span><span class="p">:</span> <span class="s2">&quot;18403.&quot;</span><span class="p">,</span>
+                                    <span class="nt">&quot;label&quot;</span><span class="p">:</span> <span class="s2">&quot;Scotland&quot;</span>
+                                <span class="p">},</span>
+                                <span class="p">{</span>
+                                    <span class="nt">&quot;id&quot;</span><span class="p">:</span> <span class="s2">&quot;18404.&quot;</span><span class="p">,</span>
+                                    <span class="nt">&quot;label&quot;</span><span class="p">:</span> <span class="s2">&quot;Wales&quot;</span>
+                                <span class="p">}</span>
+                            <span class="p">]</span>
+                        <span class="p">},</span>
+                        <span class="p">{</span>
+                            <span class="nt">&quot;id&quot;</span><span class="p">:</span> <span class="s2">&quot;185.&quot;</span><span class="p">,</span>
+                            <span class="nt">&quot;label&quot;</span><span class="p">:</span> <span class="s2">&quot;United States of America&quot;</span><span class="p">,</span>
+                            <span class="nt">&quot;categories&quot;</span><span class="p">:</span> <span class="p">[</span>
+                                <span class="p">{</span>
+                                    <span class="nt">&quot;id&quot;</span><span class="p">:</span> <span class="s2">&quot;18501.&quot;</span><span class="p">,</span>
+                                    <span class="nt">&quot;label&quot;</span><span class="p">:</span> <span class="s2">&quot;Alabama&quot;</span>
+                                <span class="p">},</span>
+                                <span class="p">{</span>
+                                    <span class="nt">&quot;id&quot;</span><span class="p">:</span> <span class="s2">&quot;18502.&quot;</span><span class="p">,</span>
+                                    <span class="nt">&quot;label&quot;</span><span class="p">:</span> <span class="s2">&quot;Alaska&quot;</span>
+                                <span class="p">},</span>
+                                <span class="p">{</span>
+                                    <span class="nt">&quot;id&quot;</span><span class="p">:</span> <span class="s2">&quot;18503.&quot;</span><span class="p">,</span>
+                                    <span class="nt">&quot;label&quot;</span><span class="p">:</span> <span class="s2">&quot;Arizona&quot;</span>
+                                <span class="p">},</span>
+                                <span class="p">{</span>
+                                    <span class="nt">&quot;id&quot;</span><span class="p">:</span> <span class="s2">&quot;18504.&quot;</span><span class="p">,</span>
+                                    <span class="nt">&quot;label&quot;</span><span class="p">:</span> <span class="s2">&quot;Arkansas&quot;</span>
+                                <span class="p">},</span>
+                                <span class="p">{</span>
+                                    <span class="nt">&quot;id&quot;</span><span class="p">:</span> <span class="s2">&quot;18505.&quot;</span><span class="p">,</span>
+                                    <span class="nt">&quot;label&quot;</span><span class="p">:</span> <span class="s2">&quot;California&quot;</span>
+                                <span class="p">},</span>
+                                <span class="p">{</span>
+                                    <span class="nt">&quot;id&quot;</span><span class="p">:</span> <span class="s2">&quot;18506.&quot;</span><span class="p">,</span>
+                                    <span class="nt">&quot;label&quot;</span><span class="p">:</span> <span class="s2">&quot;Colorado&quot;</span>
+                                <span class="p">},</span>
+                                <span class="p">{</span>
+                                    <span class="nt">&quot;id&quot;</span><span class="p">:</span> <span class="s2">&quot;18507.&quot;</span><span class="p">,</span>
+                                    <span class="nt">&quot;label&quot;</span><span class="p">:</span> <span class="s2">&quot;Connecticut&quot;</span>
+                                <span class="p">},</span>
+                                <span class="p">{</span>
+                                    <span class="nt">&quot;id&quot;</span><span class="p">:</span> <span class="s2">&quot;18508.&quot;</span><span class="p">,</span>
+                                    <span class="nt">&quot;label&quot;</span><span class="p">:</span> <span class="s2">&quot;Delaware&quot;</span>
+                                <span class="p">},</span>
+                                <span class="p">{</span>
+                                    <span class="nt">&quot;id&quot;</span><span class="p">:</span> <span class="s2">&quot;18509.&quot;</span><span class="p">,</span>
+                                    <span class="nt">&quot;label&quot;</span><span class="p">:</span> <span class="s2">&quot;District of Columbia&quot;</span>
+                                <span class="p">},</span>
+                                <span class="p">{</span>
+                                    <span class="nt">&quot;id&quot;</span><span class="p">:</span> <span class="s2">&quot;18510.&quot;</span><span class="p">,</span>
+                                    <span class="nt">&quot;label&quot;</span><span class="p">:</span> <span class="s2">&quot;Florida&quot;</span>
+                                <span class="p">},</span>
+                                <span class="p">{</span>
+                                    <span class="nt">&quot;id&quot;</span><span class="p">:</span> <span class="s2">&quot;18511.&quot;</span><span class="p">,</span>
+                                    <span class="nt">&quot;label&quot;</span><span class="p">:</span> <span class="s2">&quot;Georgia&quot;</span>
+                                <span class="p">},</span>
+                                <span class="p">{</span>
+                                    <span class="nt">&quot;id&quot;</span><span class="p">:</span> <span class="s2">&quot;18512.&quot;</span><span class="p">,</span>
+                                    <span class="nt">&quot;label&quot;</span><span class="p">:</span> <span class="s2">&quot;Hawaii&quot;</span>
+                                <span class="p">},</span>
+                                <span class="p">{</span>
+                                    <span class="nt">&quot;id&quot;</span><span class="p">:</span> <span class="s2">&quot;18513.&quot;</span><span class="p">,</span>
+                                    <span class="nt">&quot;label&quot;</span><span class="p">:</span> <span class="s2">&quot;Idaho&quot;</span>
+                                <span class="p">},</span>
+                                <span class="p">{</span>
+                                    <span class="nt">&quot;id&quot;</span><span class="p">:</span> <span class="s2">&quot;18514.&quot;</span><span class="p">,</span>
+                                    <span class="nt">&quot;label&quot;</span><span class="p">:</span> <span class="s2">&quot;Illinois&quot;</span>
+                                <span class="p">},</span>
+                                <span class="p">{</span>
+                                    <span class="nt">&quot;id&quot;</span><span class="p">:</span> <span class="s2">&quot;18515.&quot;</span><span class="p">,</span>
+                                    <span class="nt">&quot;label&quot;</span><span class="p">:</span> <span class="s2">&quot;Indiana&quot;</span>
+                                <span class="p">},</span>
+                                <span class="p">{</span>
+                                    <span class="nt">&quot;id&quot;</span><span class="p">:</span> <span class="s2">&quot;18516.&quot;</span><span class="p">,</span>
+                                    <span class="nt">&quot;label&quot;</span><span class="p">:</span> <span class="s2">&quot;Iowa&quot;</span>
+                                <span class="p">},</span>
+                                <span class="p">{</span>
+                                    <span class="nt">&quot;id&quot;</span><span class="p">:</span> <span class="s2">&quot;18517.&quot;</span><span class="p">,</span>
+                                    <span class="nt">&quot;label&quot;</span><span class="p">:</span> <span class="s2">&quot;Kansas&quot;</span>
+                                <span class="p">},</span>
+                                <span class="p">{</span>
+                                    <span class="nt">&quot;id&quot;</span><span class="p">:</span> <span class="s2">&quot;18518.&quot;</span><span class="p">,</span>
+                                    <span class="nt">&quot;label&quot;</span><span class="p">:</span> <span class="s2">&quot;Kentucky&quot;</span>
+                                <span class="p">},</span>
+                                <span class="p">{</span>
+                                    <span class="nt">&quot;id&quot;</span><span class="p">:</span> <span class="s2">&quot;18519.&quot;</span><span class="p">,</span>
+                                    <span class="nt">&quot;label&quot;</span><span class="p">:</span> <span class="s2">&quot;Louisiana&quot;</span>
+                                <span class="p">},</span>
+                                <span class="p">{</span>
+                                    <span class="nt">&quot;id&quot;</span><span class="p">:</span> <span class="s2">&quot;18520.&quot;</span><span class="p">,</span>
+                                    <span class="nt">&quot;label&quot;</span><span class="p">:</span> <span class="s2">&quot;Maine&quot;</span>
+                                <span class="p">},</span>
+                                <span class="p">{</span>
+                                    <span class="nt">&quot;id&quot;</span><span class="p">:</span> <span class="s2">&quot;18521.&quot;</span><span class="p">,</span>
+                                    <span class="nt">&quot;label&quot;</span><span class="p">:</span> <span class="s2">&quot;Maryland&quot;</span>
+                                <span class="p">},</span>
+                                <span class="p">{</span>
+                                    <span class="nt">&quot;id&quot;</span><span class="p">:</span> <span class="s2">&quot;18522.&quot;</span><span class="p">,</span>
+                                    <span class="nt">&quot;label&quot;</span><span class="p">:</span> <span class="s2">&quot;Massachusetts&quot;</span>
+                                <span class="p">},</span>
+                                <span class="p">{</span>
+                                    <span class="nt">&quot;id&quot;</span><span class="p">:</span> <span class="s2">&quot;18523.&quot;</span><span class="p">,</span>
+                                    <span class="nt">&quot;label&quot;</span><span class="p">:</span> <span class="s2">&quot;Michigan&quot;</span>
+                                <span class="p">},</span>
+                                <span class="p">{</span>
+                                    <span class="nt">&quot;id&quot;</span><span class="p">:</span> <span class="s2">&quot;18524.&quot;</span><span class="p">,</span>
+                                    <span class="nt">&quot;label&quot;</span><span class="p">:</span> <span class="s2">&quot;Minnesota&quot;</span>
+                                <span class="p">},</span>
+                                <span class="p">{</span>
+                                    <span class="nt">&quot;id&quot;</span><span class="p">:</span> <span class="s2">&quot;18525.&quot;</span><span class="p">,</span>
+                                    <span class="nt">&quot;label&quot;</span><span class="p">:</span> <span class="s2">&quot;Mississippi&quot;</span>
+                                <span class="p">},</span>
+                                <span class="p">{</span>
+                                    <span class="nt">&quot;id&quot;</span><span class="p">:</span> <span class="s2">&quot;18526.&quot;</span><span class="p">,</span>
+                                    <span class="nt">&quot;label&quot;</span><span class="p">:</span> <span class="s2">&quot;Missouri&quot;</span>
+                                <span class="p">},</span>
+                                <span class="p">{</span>
+                                    <span class="nt">&quot;id&quot;</span><span class="p">:</span> <span class="s2">&quot;18527.&quot;</span><span class="p">,</span>
+                                    <span class="nt">&quot;label&quot;</span><span class="p">:</span> <span class="s2">&quot;Montana&quot;</span>
+                                <span class="p">},</span>
+                                <span class="p">{</span>
+                                    <span class="nt">&quot;id&quot;</span><span class="p">:</span> <span class="s2">&quot;18528.&quot;</span><span class="p">,</span>
+                                    <span class="nt">&quot;label&quot;</span><span class="p">:</span> <span class="s2">&quot;Nebraska&quot;</span>
+                                <span class="p">},</span>
+                                <span class="p">{</span>
+                                    <span class="nt">&quot;id&quot;</span><span class="p">:</span> <span class="s2">&quot;18529.&quot;</span><span class="p">,</span>
+                                    <span class="nt">&quot;label&quot;</span><span class="p">:</span> <span class="s2">&quot;Nevada&quot;</span>
+                                <span class="p">},</span>
+                                <span class="p">{</span>
+                                    <span class="nt">&quot;id&quot;</span><span class="p">:</span> <span class="s2">&quot;18530.&quot;</span><span class="p">,</span>
+                                    <span class="nt">&quot;label&quot;</span><span class="p">:</span> <span class="s2">&quot;New Hampshire&quot;</span>
+                                <span class="p">},</span>
+                                <span class="p">{</span>
+                                    <span class="nt">&quot;id&quot;</span><span class="p">:</span> <span class="s2">&quot;18531.&quot;</span><span class="p">,</span>
+                                    <span class="nt">&quot;label&quot;</span><span class="p">:</span> <span class="s2">&quot;New Jersey&quot;</span>
+                                <span class="p">},</span>
+                                <span class="p">{</span>
+                                    <span class="nt">&quot;id&quot;</span><span class="p">:</span> <span class="s2">&quot;18532.&quot;</span><span class="p">,</span>
+                                    <span class="nt">&quot;label&quot;</span><span class="p">:</span> <span class="s2">&quot;New Mexico&quot;</span>
+                                <span class="p">},</span>
+                                <span class="p">{</span>
+                                    <span class="nt">&quot;id&quot;</span><span class="p">:</span> <span class="s2">&quot;18533.&quot;</span><span class="p">,</span>
+                                    <span class="nt">&quot;label&quot;</span><span class="p">:</span> <span class="s2">&quot;New York State&quot;</span>
+                                <span class="p">},</span>
+                                <span class="p">{</span>
+                                    <span class="nt">&quot;id&quot;</span><span class="p">:</span> <span class="s2">&quot;18534.&quot;</span><span class="p">,</span>
+                                    <span class="nt">&quot;label&quot;</span><span class="p">:</span> <span class="s2">&quot;North Carolina&quot;</span>
+                                <span class="p">},</span>
+                                <span class="p">{</span>
+                                    <span class="nt">&quot;id&quot;</span><span class="p">:</span> <span class="s2">&quot;18535.&quot;</span><span class="p">,</span>
+                                    <span class="nt">&quot;label&quot;</span><span class="p">:</span> <span class="s2">&quot;North Dakota&quot;</span>
+                                <span class="p">},</span>
+                                <span class="p">{</span>
+                                    <span class="nt">&quot;id&quot;</span><span class="p">:</span> <span class="s2">&quot;18536.&quot;</span><span class="p">,</span>
+                                    <span class="nt">&quot;label&quot;</span><span class="p">:</span> <span class="s2">&quot;Ohio&quot;</span>
+                                <span class="p">},</span>
+                                <span class="p">{</span>
+                                    <span class="nt">&quot;id&quot;</span><span class="p">:</span> <span class="s2">&quot;18537.&quot;</span><span class="p">,</span>
+                                    <span class="nt">&quot;label&quot;</span><span class="p">:</span> <span class="s2">&quot;Oklahoma&quot;</span>
+                                <span class="p">},</span>
+                                <span class="p">{</span>
+                                    <span class="nt">&quot;id&quot;</span><span class="p">:</span> <span class="s2">&quot;18538.&quot;</span><span class="p">,</span>
+                                    <span class="nt">&quot;label&quot;</span><span class="p">:</span> <span class="s2">&quot;Oregon&quot;</span>
+                                <span class="p">},</span>
+                                <span class="p">{</span>
+                                    <span class="nt">&quot;id&quot;</span><span class="p">:</span> <span class="s2">&quot;18539.&quot;</span><span class="p">,</span>
+                                    <span class="nt">&quot;label&quot;</span><span class="p">:</span> <span class="s2">&quot;Pennsylvania&quot;</span>
+                                <span class="p">},</span>
+                                <span class="p">{</span>
+                                    <span class="nt">&quot;id&quot;</span><span class="p">:</span> <span class="s2">&quot;18540.&quot;</span><span class="p">,</span>
+                                    <span class="nt">&quot;label&quot;</span><span class="p">:</span> <span class="s2">&quot;Rhode Island&quot;</span>
+                                <span class="p">},</span>
+                                <span class="p">{</span>
+                                    <span class="nt">&quot;id&quot;</span><span class="p">:</span> <span class="s2">&quot;18541.&quot;</span><span class="p">,</span>
+                                    <span class="nt">&quot;label&quot;</span><span class="p">:</span> <span class="s2">&quot;South Carolina&quot;</span>
+                                <span class="p">},</span>
+                                <span class="p">{</span>
+                                    <span class="nt">&quot;id&quot;</span><span class="p">:</span> <span class="s2">&quot;18542.&quot;</span><span class="p">,</span>
+                                    <span class="nt">&quot;label&quot;</span><span class="p">:</span> <span class="s2">&quot;South Dakota&quot;</span>
+                                <span class="p">},</span>
+                                <span class="p">{</span>
+                                    <span class="nt">&quot;id&quot;</span><span class="p">:</span> <span class="s2">&quot;18543.&quot;</span><span class="p">,</span>
+                                    <span class="nt">&quot;label&quot;</span><span class="p">:</span> <span class="s2">&quot;Tennessee&quot;</span>
+                                <span class="p">},</span>
+                                <span class="p">{</span>
+                                    <span class="nt">&quot;id&quot;</span><span class="p">:</span> <span class="s2">&quot;18544.&quot;</span><span class="p">,</span>
+                                    <span class="nt">&quot;label&quot;</span><span class="p">:</span> <span class="s2">&quot;Texas&quot;</span>
+                                <span class="p">},</span>
+                                <span class="p">{</span>
+                                    <span class="nt">&quot;id&quot;</span><span class="p">:</span> <span class="s2">&quot;18545.&quot;</span><span class="p">,</span>
+                                    <span class="nt">&quot;label&quot;</span><span class="p">:</span> <span class="s2">&quot;Utah&quot;</span>
+                                <span class="p">},</span>
+                                <span class="p">{</span>
+                                    <span class="nt">&quot;id&quot;</span><span class="p">:</span> <span class="s2">&quot;18546.&quot;</span><span class="p">,</span>
+                                    <span class="nt">&quot;label&quot;</span><span class="p">:</span> <span class="s2">&quot;Vermont&quot;</span>
+                                <span class="p">},</span>
+                                <span class="p">{</span>
+                                    <span class="nt">&quot;id&quot;</span><span class="p">:</span> <span class="s2">&quot;18547.&quot;</span><span class="p">,</span>
+                                    <span class="nt">&quot;label&quot;</span><span class="p">:</span> <span class="s2">&quot;Virginia&quot;</span>
+                                <span class="p">},</span>
+                                <span class="p">{</span>
+                                    <span class="nt">&quot;id&quot;</span><span class="p">:</span> <span class="s2">&quot;18548.&quot;</span><span class="p">,</span>
+                                    <span class="nt">&quot;label&quot;</span><span class="p">:</span> <span class="s2">&quot;Washington State&quot;</span>
+                                <span class="p">},</span>
+                                <span class="p">{</span>
+                                    <span class="nt">&quot;id&quot;</span><span class="p">:</span> <span class="s2">&quot;18549.&quot;</span><span class="p">,</span>
+                                    <span class="nt">&quot;label&quot;</span><span class="p">:</span> <span class="s2">&quot;West Virginia&quot;</span>
+                                <span class="p">},</span>
+                                <span class="p">{</span>
+                                    <span class="nt">&quot;id&quot;</span><span class="p">:</span> <span class="s2">&quot;18550.&quot;</span><span class="p">,</span>
+                                    <span class="nt">&quot;label&quot;</span><span class="p">:</span> <span class="s2">&quot;Wisconsin&quot;</span>
+                                <span class="p">},</span>
+                                <span class="p">{</span>
+                                    <span class="nt">&quot;id&quot;</span><span class="p">:</span> <span class="s2">&quot;18551.&quot;</span><span class="p">,</span>
+                                    <span class="nt">&quot;label&quot;</span><span class="p">:</span> <span class="s2">&quot;Wyoming&quot;</span>
+                                <span class="p">}</span>
+                            <span class="p">]</span>
+                        <span class="p">},</span>
+                        <span class="p">{</span>
+                            <span class="nt">&quot;id&quot;</span><span class="p">:</span> <span class="s2">&quot;186.&quot;</span><span class="p">,</span>
+                            <span class="nt">&quot;label&quot;</span><span class="p">:</span> <span class="s2">&quot;Uruguay&quot;</span>
+                        <span class="p">},</span>
+                        <span class="p">{</span>
+                            <span class="nt">&quot;id&quot;</span><span class="p">:</span> <span class="s2">&quot;187.&quot;</span><span class="p">,</span>
+                            <span class="nt">&quot;label&quot;</span><span class="p">:</span> <span class="s2">&quot;Uzbekistan&quot;</span>
+                        <span class="p">},</span>
+                        <span class="p">{</span>
+                            <span class="nt">&quot;id&quot;</span><span class="p">:</span> <span class="s2">&quot;188.&quot;</span><span class="p">,</span>
+                            <span class="nt">&quot;label&quot;</span><span class="p">:</span> <span class="s2">&quot;Vanuatu&quot;</span>
+                        <span class="p">},</span>
+                        <span class="p">{</span>
+                            <span class="nt">&quot;id&quot;</span><span class="p">:</span> <span class="s2">&quot;189.&quot;</span><span class="p">,</span>
+                            <span class="nt">&quot;label&quot;</span><span class="p">:</span> <span class="s2">&quot;Vatican City&quot;</span>
+                        <span class="p">},</span>
+                        <span class="p">{</span>
+                            <span class="nt">&quot;id&quot;</span><span class="p">:</span> <span class="s2">&quot;190.&quot;</span><span class="p">,</span>
+                            <span class="nt">&quot;label&quot;</span><span class="p">:</span> <span class="s2">&quot;Venezuela&quot;</span>
+                        <span class="p">},</span>
+                        <span class="p">{</span>
+                            <span class="nt">&quot;id&quot;</span><span class="p">:</span> <span class="s2">&quot;191.&quot;</span><span class="p">,</span>
+                            <span class="nt">&quot;label&quot;</span><span class="p">:</span> <span class="s2">&quot;Vietnam&quot;</span>
+                        <span class="p">},</span>
+                        <span class="p">{</span>
+                            <span class="nt">&quot;id&quot;</span><span class="p">:</span> <span class="s2">&quot;192.&quot;</span><span class="p">,</span>
+                            <span class="nt">&quot;label&quot;</span><span class="p">:</span> <span class="s2">&quot;Yemen&quot;</span>
+                        <span class="p">},</span>
+                        <span class="p">{</span>
+                            <span class="nt">&quot;id&quot;</span><span class="p">:</span> <span class="s2">&quot;193.&quot;</span><span class="p">,</span>
+                            <span class="nt">&quot;label&quot;</span><span class="p">:</span> <span class="s2">&quot;Zambia&quot;</span>
+                        <span class="p">},</span>
+                        <span class="p">{</span>
+                            <span class="nt">&quot;id&quot;</span><span class="p">:</span> <span class="s2">&quot;194.&quot;</span><span class="p">,</span>
+                            <span class="nt">&quot;label&quot;</span><span class="p">:</span> <span class="s2">&quot;Zimbabwe&quot;</span>
+                        <span class="p">}</span>
+                    <span class="p">]</span>
+                <span class="p">}</span>
+            <span class="p">]</span>
+        <span class="p">}</span>
+    <span class="p">]</span>
+<span class="p">}</span>
+</code></pre></div>
+
+
+<p>The Boolean property <code>success</code> indicates that processing was successful while the <code>data</code> array contains the results.</p>
+<p><code>data</code> contains one object for each categories' tree because, in theory, a taxonomy can have more than one.<br />
+<code>namespace</code> is the name of the software module containing the taxonomy, while <code>taxonomy</code> is an array of possibly nested categories.</p>
+<p>Each category is an object with these properties:</p>
+<ul>
+<li><code>id</code>: category identifier</li>
+<li><code>label</code>: category label</li>
+<li><code>categories</code>: sub-categories</li>
+</ul>
+<p>There can be several categories with the same value for <code>id</code> in the categories' tree, but there cannot be two or more categories with the same <code>id</code> having the same parent category.</p>
+<h2 id="detectors">detectors</h2>
+<p>The <code>detectors</code> resource returns a JSON object like this:</p>
+<div class="codehilite"><pre><span></span><code><span class="p">{</span>
+    <span class="nt">&quot;detectors&quot;</span><span class="p">:</span> <span class="p">[</span>
+        <span class="p">{</span>
+            <span class="nt">&quot;contract&quot;</span><span class="p">:</span> <span class="s2">&quot;https://github.com/therealexpertai/nlapi-openapi-specification/blob/master/pii.yaml&quot;</span><span class="p">,</span>
+            <span class="nt">&quot;description&quot;</span><span class="p">:</span> <span class="s2">&quot;Personally Identifiable Information (PII) detector&quot;</span><span class="p">,</span>
+            <span class="nt">&quot;languages&quot;</span><span class="p">:</span> <span class="p">[</span>
+                <span class="p">{</span>
+                    <span class="nt">&quot;code&quot;</span><span class="p">:</span> <span class="s2">&quot;en&quot;</span><span class="p">,</span>
+                    <span class="nt">&quot;name&quot;</span><span class="p">:</span> <span class="s2">&quot;English&quot;</span>
+                <span class="p">},</span>
+                <span class="p">{</span>
+                    <span class="nt">&quot;code&quot;</span><span class="p">:</span> <span class="s2">&quot;it&quot;</span><span class="p">,</span>
+                    <span class="nt">&quot;name&quot;</span><span class="p">:</span> <span class="s2">&quot;Italian&quot;</span>
+                <span class="p">}</span>
+            <span class="p">],</span>
+            <span class="nt">&quot;name&quot;</span><span class="p">:</span> <span class="s2">&quot;pii&quot;</span>
+        <span class="p">},</span>
+        <span class="p">{</span>
+            <span class="nt">&quot;contract&quot;</span><span class="p">:</span> <span class="s2">&quot;https://github.com/therealexpertai/nlapi-openapi-specification/blob/master/writeprint.yaml&quot;</span><span class="p">,</span>
+            <span class="nt">&quot;description&quot;</span><span class="p">:</span> <span class="s2">&quot;Writeprint detector&quot;</span><span class="p">,</span>
+            <span class="nt">&quot;languages&quot;</span><span class="p">:</span> <span class="p">[</span>
+                <span class="p">{</span>
+                    <span class="nt">&quot;code&quot;</span><span class="p">:</span> <span class="s2">&quot;en&quot;</span><span class="p">,</span>
+                    <span class="nt">&quot;name&quot;</span><span class="p">:</span> <span class="s2">&quot;English&quot;</span>
+                <span class="p">},</span>
+                <span class="p">{</span>
+                    <span class="nt">&quot;code&quot;</span><span class="p">:</span> <span class="s2">&quot;it&quot;</span><span class="p">,</span>
+                    <span class="nt">&quot;name&quot;</span><span class="p">:</span> <span class="s2">&quot;Italian&quot;</span>
+                <span class="p">},</span>
+                <span class="p">{</span>
+                    <span class="nt">&quot;code&quot;</span><span class="p">:</span> <span class="s2">&quot;es&quot;</span><span class="p">,</span>
+                    <span class="nt">&quot;name&quot;</span><span class="p">:</span> <span class="s2">&quot;Spanish&quot;</span>
+                <span class="p">},</span>
+                <span class="p">{</span>
+                    <span class="nt">&quot;code&quot;</span><span class="p">:</span> <span class="s2">&quot;fr&quot;</span><span class="p">,</span>
+                    <span class="nt">&quot;name&quot;</span><span class="p">:</span> <span class="s2">&quot;French&quot;</span>
+                <span class="p">},</span>
+                <span class="p">{</span>
+                    <span class="nt">&quot;code&quot;</span><span class="p">:</span> <span class="s2">&quot;de&quot;</span><span class="p">,</span>
+                    <span class="nt">&quot;name&quot;</span><span class="p">:</span> <span class="s2">&quot;German&quot;</span>
+                <span class="p">}</span>
+            <span class="p">],</span>
+            <span class="nt">&quot;name&quot;</span><span class="p">:</span> <span class="s2">&quot;writeprint&quot;</span>
+        <span class="p">}</span>
+    <span class="p">]</span>
+<span class="p">}</span>
+</code></pre></div>
+
+
+<p>The <code>detectors</code> array contains one object for each detector.<br />
+The <code>name</code> property is the exact name that must be used in the endpoint of information detection resources.</p>
+<p>The <code>languages</code> array lists the languages for which the taxonomy is available.<br />
+<code>code</code> id the <a href="https://en.wikipedia.org/wiki/ISO_639-1" target="_blank">ISO 639-1 language code</a>.</p>
+<p>Each detector has a specific output which is formally described in an OpenAPI document. The <code>contract</code> property contains the URL of that document.</p>
+                
+              
+              
+                
+
+
+              
+            </article>
+          </div>
+        </div>
+        
+      </main>
+      
+        
+<footer class="md-footer">
+  
+    <nav class="md-footer__inner md-grid" aria-label="Footer">
+      
+        
+        <a href="../detection/temporal-information/" class="md-footer__link md-footer__link--prev" aria-label="Previous: Temporal information" rel="prev">
+          <div class="md-footer__button md-icon">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12z"/></svg>
+          </div>
+          <div class="md-footer__title">
+            <div class="md-ellipsis">
+              <span class="md-footer__direction">
+                Previous
+              </span>
+              Temporal information
+            </div>
+          </div>
+        </a>
+      
+      
+        
+        <a href="../managed-errors/" class="md-footer__link md-footer__link--next" aria-label="Next: Managed errors" rel="next">
+          <div class="md-footer__title">
+            <div class="md-ellipsis">
+              <span class="md-footer__direction">
+                Next
+              </span>
+              Managed errors
+            </div>
+          </div>
+          <div class="md-footer__button md-icon">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M4 11v2h12l-5.5 5.5 1.42 1.42L19.84 12l-7.92-7.92L10.5 5.5 16 11H4z"/></svg>
+          </div>
+        </a>
+      
+    </nav>
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-footer-copyright">
+        
+          <div class="md-footer-copyright__highlight">
+            Copyright © 2020-2021 expert.ai - All rights reserved
+          </div>
+        
+        Made with
+        <a href="https://squidfunk.github.io/mkdocs-material/" target="_blank" rel="noopener">
+          Material for MkDocs
+        </a>
+        
+      </div>
+      
+  <div class="md-footer-social">
+    
+      
+      
+        
+        
+      
+      <a href="https://github.com/therealexpertai" target="_blank" rel="noopener" title="github.com" class="md-footer-social__link">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 480 512"><path d="M186.1 328.7c0 20.9-10.9 55.1-36.7 55.1s-36.7-34.2-36.7-55.1 10.9-55.1 36.7-55.1 36.7 34.2 36.7 55.1zM480 278.2c0 31.9-3.2 65.7-17.5 95-37.9 76.6-142.1 74.8-216.7 74.8-75.8 0-186.2 2.7-225.6-74.8-14.6-29-20.2-63.1-20.2-95 0-41.9 13.9-81.5 41.5-113.6-5.2-15.8-7.7-32.4-7.7-48.8 0-21.5 4.9-32.3 14.6-51.8 45.3 0 74.3 9 108.8 36 29-6.9 58.8-10 88.7-10 27 0 54.2 2.9 80.4 9.2 34-26.7 63-35.2 107.8-35.2 9.8 19.5 14.6 30.3 14.6 51.8 0 16.4-2.6 32.7-7.7 48.2 27.5 32.4 39 72.3 39 114.2zm-64.3 50.5c0-43.9-26.7-82.6-73.5-82.6-18.9 0-37 3.4-56 6-14.9 2.3-29.8 3.2-45.1 3.2-15.2 0-30.1-.9-45.1-3.2-18.7-2.6-37-6-56-6-46.8 0-73.5 38.7-73.5 82.6 0 87.8 80.4 101.3 150.4 101.3h48.2c70.3 0 150.6-13.4 150.6-101.3zm-82.6-55.1c-25.8 0-36.7 34.2-36.7 55.1s10.9 55.1 36.7 55.1 36.7-34.2 36.7-55.1-10.9-55.1-36.7-55.1z"/></svg>
+      </a>
+    
+  </div>
+
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    <div class="md-dialog" data-md-component="dialog">
+      <div class="md-dialog__inner md-typeset"></div>
+    </div>
+    <script id="__config" type="application/json">{"base": "../../..", "features": [], "translations": {"clipboard.copy": "Copy to clipboard", "clipboard.copied": "Copied to clipboard", "search.config.lang": "en", "search.config.pipeline": "trimmer, stopWordFilter", "search.config.separator": "[\\s\\-]+", "search.placeholder": "Search", "search.result.placeholder": "Type to start searching", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.term.missing": "Missing", "select.version.title": "Select version"}, "search": "../../../assets/javascripts/workers/search.709b4209.min.js", "version": null}</script>
+    
+    
+      <script src="../../../assets/javascripts/bundle.febc23d1.min.js"></script>
+      
+    
+  </body>
+</html>
